@@ -20,8 +20,8 @@ override: false
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
   visibilitychange: true
-  narmal: /images/favicon.ico
-  hidden: /images/failure.ico
+  narmal: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.1/images/favicon.ico
+  hidden: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.1/images/failure.ico
   show_text: (/≧▽≦/)It works now！
   hide_text: (●—●)It collapsed！
   apple_touch_icon: /apple-touch-icon.png
@@ -120,13 +120,11 @@ links_icon: link
 links_title: Links
 links_layout: block
 #links_layout: inline
-links:
-  DIYgos: https://abozanona.me || https://abozanona.me/images/abozanona.jpg || vim abozanona
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /images/weathering-with-you-hodaka.png
+avatar: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.1/images/weathering-with-you-hodaka.png
 
 # Table Of Contents in the Sidebar
 toc:
@@ -363,12 +361,12 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC81MzI1Mi8yOTcyNg==
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 gitment:
-  enable: false
+  enable: true
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
@@ -770,10 +768,8 @@ css: css
 js: js
 images: images
 
-header_bg: /images/header-sagiri.jpg
-
 card:
-  avatar: /images/levi-erwin-aot.png
+  avatar: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.1/images/levi-erwin-aot.png
   name: <span style="opacity:.9;">Lead those New recruits into hell.</span>
   description: My Soldiers, Scream!
   items:
@@ -805,6 +801,7 @@ footer:
   # Any custom text can be defined here.
   # custom_text: 托管于<a href="https://github.com/" target="_blank" rel="nofollow"> GitHub</a>. <a href="https://www.upyun.com/" target="_blank" rel="nofollow">又拍云</a> 提供 CDN 服务. <a href="http://www.google.com/analytics/" target="_blank" rel="nofollow">Google Analytics </a>提供网站统计服务. <a href="https://www.cloudxns.net/" target="_blank" rel="nofollow">CloudXNS </a>提供 DNS 解析服务.
   sitemap: /sitemap.xml
+  counter: true
 
 description: Wind, love, code & everything in between!
 
