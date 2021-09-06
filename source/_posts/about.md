@@ -4,7 +4,7 @@ date: 2021-04-01 01:00:00
 type: "about"
 ---
 
-Hi, I'm Abozanona, quiet person, loves classic music and addicted to Dota2.
+Hi, I'm Abozanona, quiet person, listens to classic music, likes old songs and addicted to Dota2.
 
 ## Components
 
@@ -13,7 +13,7 @@ Hi, I'm Abozanona, quiet person, loves classic music and addicted to Dota2.
 | My Statement | Wind, love, code & everything in between! |
 | Statement I Like | Le vent se lève! … il faut tenter de vivre! |
 | Birthday | 12th September 1995 |
-| Features | Busy, Slow to respond, Bad in memorization, Offline, Not using social websites |
+| Characteristics | Busy, Slow to respond, Bad in memorization, Offline, Not using social websites |
 | Career | Struts2 & FullStack developer |
 | Favorite Anime | Attack on Titan, duh (￣▽￣) |
 | Favorite Game | Dota2 |
@@ -39,7 +39,7 @@ Hi, I'm Abozanona, quiet person, loves classic music and addicted to Dota2.
 - Scored 3rd rank in Palestine, (1180 place overall) in Google HashCode 2020.
 
 
-## Thinks I worked on
+## Things I worked on
 
 - Will add them later.
 <!-- <div class="work">

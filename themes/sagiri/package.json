@@ -17,12 +17,12 @@
     "sagiri",
     "Hexo"
   ],
-  "author": "DIYgod",
+  "author": "Abozanona",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DIYgod/hexo-theme-sagiri/issues"
   },
-  "homepage": "https://diygod.me",
+  "homepage": "https://abozanona.me",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",

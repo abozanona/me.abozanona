@@ -21,7 +21,6 @@ require('./title');
 require('./type');
 // require('./kanban');
 require('./mix');
-require('./clipboard');
 require('./pjax');
 require('./search');
 require('./zoom')();

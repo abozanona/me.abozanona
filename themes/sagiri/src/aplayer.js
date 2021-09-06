@@ -8,7 +8,7 @@ if (!NexT.utils.isMobile()) {
       fixed: true,
     });
     $.ajax({
-      url: 'https://api.i-meto.com/meting/api?server=netease&type=playlist&id=35798529',
+      url: 'https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.3/assets/playlest.json',
       success: function (list) {
         apFixed.list.add(list);
       }

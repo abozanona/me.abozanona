@@ -20,8 +20,8 @@ override: false
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
   visibilitychange: true
-  narmal: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.1/images/favicon.ico
-  hidden: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.1/images/failure.ico
+  narmal: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.3/images/favicon.ico
+  hidden: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.3/images/failure.ico
   show_text: (/≧▽≦/)It works now！
   hide_text: (●—●)It collapsed！
   apple_touch_icon: /apple-touch-icon.png
@@ -124,7 +124,7 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.1/images/weathering-with-you-hodaka.png
+avatar: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.3/images/weathering-with-you-hodaka.png
 
 # Table Of Contents in the Sidebar
 toc:
@@ -427,10 +427,11 @@ needmoreshare2:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: z-eg4_QWisGbYmEvdePREO_VE8uBCIDNp_1R8IH8OaU
 
 # Google Analytics
-# google_analytics: UA-48084758-7
+google_analytics: G-03W44XT8MV
+google_analytics_2: UA-51694270-2
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
@@ -769,7 +770,7 @@ js: js
 images: images
 
 card:
-  avatar: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.1/images/levi-erwin-aot.png
+  avatar: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.3/images/levi-erwin-aot.png
   name: <span style="opacity:.9;">Lead those New recruits into hell.</span>
   description: My Soldiers, Scream!
   items:
@@ -781,7 +782,7 @@ card:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  since: 1/1/2020 11:30:00
+  since: 4/4/2021 11:30:00
 
   # Icon between year and copyright info.
   icon: user
