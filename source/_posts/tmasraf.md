@@ -1,0 +1,49 @@
+---
+title: Tmasraf
+date: 2018-12-07 23:23:23
+categories: project
+---
+
+![](/images/projects/tmasraf/tmasraf-splash-screen.png)
+
+Tmasraf is one of the project I worked on as a freelancer. It's a cashback mobile app where customers get points from shopping. <!--more-->
+
+In Tmasraf, I developed 2 mobile applications(one for customers and one for merchants), and a control panel for admins.
+
+Tmasraf was developed using NodeJS\[Express\] and NativeScript.
+
+> The first version of the mobile application wsa developed using Xamarin.Forms, but I switched to NativeScript to improve application performance.
+
+## Tmasraf admin panel.
+
+The admin panel gives admins access to website statistics and allows them to manage merchants subscriptions.
+
+## Tmasraf customers application.
+
+Users can create a new account in Tmasraf customers application to access it's features. Once users create an account they can start collecting points.
+
+![](/images/projects/tmasraf/tmasraf-user-profile.png)
+
+Every new user gets a unique QR code that can be used in earning points.
+
+![](/images/projects/tmasraf/tmasraf-user-home.png)
+
+Users can see a list of all subscribed stores in the application and explore their location and products.
+
+![](/images/projects/tmasraf/tmasraf-user-menu.png)
+
+![](/images/projects/tmasraf/tmasraf-user-stores.png)
+
+Customers can earn point from buying products from the subscriped stores by allowing the stores to scan their QR code from the merchant application. I implemented a secure method to transfer points between customers and merchants using QR code scanning.
+
+![](/images/projects/tmasraf/tmasraf-user-points.png)
+
+![](/images/projects/tmasraf/tmasraf-savings.png)
+
+## Tmasraf merchants application.
+
+Merchants application is used by stores to add points to customers. When a customer buys a product from a merchant, the merchant scans the customers QR code and sends him cashback points that he can use in buying products in the future.
+
+![](/images/projects/tmasraf/tmasraf-store-scan-code.png)
+
+![](/images/projects/tmasraf/tmasraf-store-sell.png)

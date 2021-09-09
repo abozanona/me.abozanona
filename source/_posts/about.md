@@ -1,6 +1,6 @@
 ---
 title: About abozanona
-date: 2021-04-01 01:00:00
+date: 1995-09-12 01:00:00
 type: "about"
 ---
 
@@ -42,22 +42,35 @@ Hi, I'm Abozanona, quiet person, listens to classic music, likes old songs and a
 ## Things I worked on
 
 - Will add them later.
-<!-- <div class="work">
-    <div class="work-title">RSSHub <a href="https://docs.rsshub.app/"><i class="fas fa-link"></i></a><a href="https://github.com/DIYgod/RSSHub"><i class="fab fa-github"></i></a></div>
-    <div class="work-desc">万物皆可 RSS<img src="https://img.shields.io/github/stars/DIYgod/RSSHub?style=social&color=4c1"></div>
+<div class="work">
+    <div class="work-title">
+        Unstagram
+        <a href="https://chrome.google.com/webstore/detail/unstagram-instagram-messe/mfoefahdnhpopjcdmkpkncedcamplcei"><i class="fas fa-link"></i></a>
+        <a href="https://github.com/abozanona/Unstagram"><i class="fab fa-github"></i></a>
+    </div>
+    <div class="work-desc">Using Unstagram, you can read other’s messages on Instagram and they won’t know that.</div>
 </div>
 <div class="work">
-    <div class="work-title">RSSHub Radar <a href="https://github.com/DIYgod/RSSHub-Radar"><i class="fab fa-github"></i></a></div>
-    <div class="work-desc">一个可以帮助你快速发现和订阅当前网站 RSS 和 RSSHub 的浏览器扩展<img src="https://img.shields.io/github/stars/DIYgod/RSSHub-Radar?style=social&color=4c1"><img src="https://img.shields.io/chrome-web-store/users/kefjpfngnndepjbopdmoebkipbgkggaa.svg?style=social"></div>
+    <div class="work-title">
+        Darcom
+        <a href="https://darcom.ps/"><i class="fas fa-link"></i></a>
+    </div>
+    <div class="work-desc">Darcom is a commercial advertising guide app.</div>
 </div>
 <div class="work">
-    <div class="work-title">DPlayer <a href="https://dplayer.js.org/"><i class="fas fa-link"></i></a><a href="https://github.com/MoePlayer/DPlayer"><i class="fab fa-github"></i></a></div>
-    <div class="work-desc">一个可爱的 HTML5 弹幕视频播放器<img src="https://img.shields.io/github/stars/MoePlayer/DPlayer?style=social&color=4c1"></div>
+    <div class="work-title">
+        Nitro
+        <a href="https://nitro.co.com/"><i class="fas fa-link"></i></a>
+    </div>
+    <div class="work-desc">Nitro is an android application for advertising in taxis.</div>
 </div>
 <div class="work">
-    <div class="work-title">APlayer <a href="https://aplayer.js.org/"><i class="fas fa-link"></i></a><a href="https://github.com/MoePlayer/APlayer"><i class="fab fa-github"></i></a></div>
-    <div class="work-desc">一个好看的 HTML5 音乐播放器<img src="https://img.shields.io/github/stars/MoePlayer/APlayer?style=social&color=4c1"></div>
-</div> -->
+    <div class="work-title">
+        Tmasraf
+        <a href="https://nitro.co.com/"><i class="fas fa-link"></i></a>
+    </div>
+    <div class="work-desc">Tmasraf is a cashback mobile app where customers get points from shopping.</div>
+</div>
 
 ## Find me
 

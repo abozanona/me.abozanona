@@ -73,7 +73,11 @@ menu:
 
 submenu:
   workshop:
-    To be added ...: /
+    Tmasraf: /tmasraf
+    Darcom: /darcom
+    Nitro: /nitro
+    Video stream: /videos-streaming-application
+    Unstagram: /unstagram
 
 # Enable/Disable menu icons.
 menu_icons:
