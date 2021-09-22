@@ -4,7 +4,7 @@ date: 1995-09-12 01:00:00
 type: "about"
 ---
 
-Hi, I'm Abozanona, quiet person, listens to classic music, likes old songs and addicted to Dota2.
+Hi, I'm Abozanona, a quiet person, listens to classic music, likes old songs and addicted to Dota2.
 
 ## Components
 
@@ -41,7 +41,6 @@ Hi, I'm Abozanona, quiet person, listens to classic music, likes old songs and a
 
 ## Things I worked on
 
-- Will add them later.
 <div class="work">
     <div class="work-title">
         Unstagram

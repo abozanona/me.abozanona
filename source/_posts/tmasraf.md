@@ -6,21 +6,21 @@ categories: project
 
 ![](/images/projects/tmasraf/tmasraf-splash-screen.png)
 
-Tmasraf is one of the project I worked on as a freelancer. It's a cashback mobile app where customers get points from shopping. <!--more-->
+Tmasraf is one of the projects I worked on as a freelancer. It's a cashback mobile app where customers get points from shopping. <!--more-->
 
-In Tmasraf, I developed 2 mobile applications(one for customers and one for merchants), and a control panel for admins.
+In Tmasraf, I developed two mobile applications(one for customers and one for merchants), and a control panel for admins.
 
 Tmasraf was developed using NodeJS\[Express\] and NativeScript.
 
-> The first version of the mobile application wsa developed using Xamarin.Forms, but I switched to NativeScript to improve application performance.
+> The first version of the mobile application was developed using Xamarin.Forms, but I switched to NativeScript to improve application performance.
 
 ## Tmasraf admin panel.
 
-The admin panel gives admins access to website statistics and allows them to manage merchants subscriptions.
+The admin panel gives admins access to website statistics and allows them to manage merchants' subscriptions.
 
 ## Tmasraf customers application.
 
-Users can create a new account in Tmasraf customers application to access it's features. Once users create an account they can start collecting points.
+Users can create a new account in Tmasraf customers application to access its features. Once users create an account they can start collecting points.
 
 ![](/images/projects/tmasraf/tmasraf-user-profile.png)
 
@@ -34,7 +34,7 @@ Users can see a list of all subscribed stores in the application and explore the
 
 ![](/images/projects/tmasraf/tmasraf-user-stores.png)
 
-Customers can earn point from buying products from the subscriped stores by allowing the stores to scan their QR code from the merchant application. I implemented a secure method to transfer points between customers and merchants using QR code scanning.
+Customers can earn a point from buying products from the subscribed stores by allowing the stores to scan their QR code from the merchant application. I implemented a secure method to transfer points between customers and merchants using QR code scanning.
 
 ![](/images/projects/tmasraf/tmasraf-user-points.png)
 
@@ -42,7 +42,7 @@ Customers can earn point from buying products from the subscriped stores by allo
 
 ## Tmasraf merchants application.
 
-Merchants application is used by stores to add points to customers. When a customer buys a product from a merchant, the merchant scans the customers QR code and sends him cashback points that he can use in buying products in the future.
+Merchants application is used by stores to add points to customers. When a customer buys a product from a merchant, the merchant scans the customer's QR code and sends him cashback points that he can use in buying products in the future.
 
 ![](/images/projects/tmasraf/tmasraf-store-scan-code.png)
 

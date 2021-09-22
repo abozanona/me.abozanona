@@ -10,8 +10,8 @@ categories: project
 
 With darcom you can:
 
- - browser stores and order products.
- - Collect point and get seasonal gifts.
+ - browser stores and orders products.
+ - Collect points and get seasonal gifts.
  - Buy products from stores.
  - Share stories with your customers.
  - Send notifications to others.
