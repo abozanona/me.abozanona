@@ -4,7 +4,7 @@ date: 1995-09-12 01:00:00
 type: "about"
 ---
 
-Hi, I'm Abozanona, a quiet person, listens to classic music, likes old songs and addicted to Dota2.
+Hi, I'm Abozanona, a quiet person, listens to classical music, likes old songs, and addicted to Dota2.
 
 ## Components
 
@@ -77,6 +77,7 @@ Hi, I'm Abozanona, a quiet person, listens to classic music, likes old songs and
 
 - [Email me?](mailto:abozanona@gmail.com?subject=That%20Astonishing%20Movie...&body=Hi%20Abozanona%2C%0D%0A%0D%0AI%20have%20found%20a%20movie%20%26%20I'm%20sure%20you'll%20love%20it!%0D%0AMaybe%20we%20should%20watch%20it%20together%3F%0D%0ALet%20me%20know%20when%20you're%20free!%0D%0A%0D%0AYagami%20Light.)
 - [Have an idea?](mailto:abozanona@gmail.com?subject=That%20Astonishing%20Movie...&body=Hi%20Abozanona%2C%0D%0A%0D%0AI%20have%20found%20a%20movie%20%26%20I'm%20sure%20you'll%20love%20it!%0D%0AMaybe%20we%20should%20watch%20it%20together%3F%0D%0ALet%20me%20know%20when%20you're%20free!%0D%0A%0D%0AYagami%20Light.)
+- [Hire me?](/assets/abozanona-resume.pdf)
 - [Buy me a coffee?](https://www.buymeacoffee.com/abozanon)
 - Direct messaging? ¯\\_(ツ)_/¯
 

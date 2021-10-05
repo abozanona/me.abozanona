@@ -10,4 +10,4 @@ His teacher will tell him three words in Arabic and he should tell him the meani
 
 I wrote a python code with him to help him cheat in the quiz. :) 
 
-<iframe height="250" src="https://www.youtube.com/embed/n-aDfbYzhl8"></iframe>
+<iframe height="250" src="https://www.youtube.com/embed/n-aDfbYzhl8" style="width:100%;"></iframe>
