@@ -20,8 +20,8 @@ override: false
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
   visibilitychange: true
-  narmal: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.3/images/favicon.ico
-  hidden: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.3/images/failure.ico
+  narmal: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.4/images/favicon.ico
+  hidden: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.4/images/failure.ico
   show_text: (/≧▽≦/)It works now！
   hide_text: (●—●)It collapsed！
   apple_touch_icon: /apple-touch-icon.png
@@ -68,8 +68,9 @@ index_with_subtitle: false
 menu:
   Home: / || fas fa-meteor
   WorkShop: javascript:; || fas fa-magic
-  Archive: /archives/ || fas fa-archive
+  # Archive: /archives/ || fas fa-archive
   About: /about/ || fas fa-heartbeat
+  Hire Me: /assets/abozanona-resume.pdf || fas fa-briefcase
 
 submenu:
   workshop:
@@ -128,7 +129,7 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.3/images/weathering-with-you-hodaka.png
+avatar: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.4/images/weathering-with-you-hodaka.png
 
 # Table Of Contents in the Sidebar
 toc:
@@ -365,7 +366,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC81MzI1Mi8yOTcyNg==
+# livere_uid: MTAyMC81MzI1Mi8yOTcyNg==
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
@@ -774,7 +775,7 @@ js: js
 images: images
 
 card:
-  avatar: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.3/images/levi-erwin-aot.png
+  avatar: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.4/images/levi-erwin-aot.png
   name: <span style="opacity:.9;">Lead those New recruits into hell.</span>
   description: My Soldiers, Scream!
   items:

@@ -1,7 +1,7 @@
 ---
 title: Github pull requests
 date: 2021-09-01 23:23:23
-categories: projects
+categories: project
 ---
 
 When I work on developing a new project, I always look for open source libraries and projects on Github to save me from reinventing the wheel. But in some cases, the code has issues or doesn't fulfill my project requirements, and that's when I modify the original code and create pull requests with my changes. <!--more--> Here are some of the pull requests I've created on Github in the past years.
@@ -34,15 +34,15 @@ I also needed to add more functionalities to the story widget, including adding 
 
 I've made some modifications to the library to produce this new story view.
 
-![](/images/projects/github-pull-requests/story-view-1.png)
+![](https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.4/images/projects/github-pull-requests/story-view-1.png)
 
-![](/images/projects/github-pull-requests/story-view-2.png)
+![](https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.4/images/projects/github-pull-requests/story-view-2.png)
 
-![](/images/projects/github-pull-requests/story-view-3.png)
+![](https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.4/images/projects/github-pull-requests/story-view-3.png)
 
-![](/images/projects/github-pull-requests/story-view-4.png)
+![](https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.4/images/projects/github-pull-requests/story-view-4.png)
 
-![](/images/projects/github-pull-requests/story-view-5.png)
+![](https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.4/images/projects/github-pull-requests/story-view-5.png)
 
 ## Admob Flutter. <a href="https://github.com/kmcgill88/admob_flutter/pull/150"><i class="fab fa-github"></i></a>
 

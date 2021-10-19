@@ -4,9 +4,11 @@
 {% if theme.footer.counter %}
 <div>
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <!--
     <span id="busuanzi_container_site_pv"> Total visits to the site <span id="busuanzi_value_site_pv"></span> times</span>
     <span class="post-meta-divider">|</span>
     <span id="busuanzi_container_site_uv">Number of visitors <span id="busuanzi_value_site_uv"></span> people</span>
+    -->
 </div>
 {% endif %}
 <p>© <span itemprop="copyrightYear">{{ current }}</span> {{ config.author }}.
