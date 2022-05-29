@@ -4,7 +4,7 @@ date: 2020-03-09 23:23:23
 categories: project
 ---
 
-![](https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.4/images/projects/darcom/darcom-home.png)
+![](https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.5/images/projects/darcom/darcom-home.png)
 
 [Darcom](https://darcom.ps/) is a project I worked on as a freelancer. It's a commercial advertising guide app. <!--more-->
 
