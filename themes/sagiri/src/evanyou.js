@@ -23,7 +23,7 @@ if (document.getElementById('evanyou')) {
       q = [{ x: 0, y: h * .7 + f }, { x: 0, y: h * .7 - f }]
       while (q[1].x < w + f) d(q[0], q[1])
     };
-    img.src = 'https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.5/images/footer.png';
+    img.src = 'https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.6/images/footer.png';
   }
   function d(i, j) {
     x.beginPath()
