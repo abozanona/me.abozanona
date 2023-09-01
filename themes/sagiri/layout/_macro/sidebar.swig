@@ -34,7 +34,7 @@
                 src="{{ url_for( theme.card.avatar | default(theme.images + '/card.jpg') ) }}"
                 alt="{{ theme.author }}" />
             {% endif %}
-              <p class="site-author-name" itemprop="name">{{ theme.card.name }}</p>
+              <!--p class="site-author-name" itemprop="name">{{ theme.card.name }}</p-->
               <p class="site-description motion-element" itemprop="description">{#
             #}{% if theme.seo %}{#
               #}{{ theme.signature }}{#

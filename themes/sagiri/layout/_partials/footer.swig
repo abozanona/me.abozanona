@@ -4,16 +4,9 @@
 {% if theme.footer.counter %}
 <div>
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <!--
     <span id="busuanzi_container_site_pv"> Total visits to the site <span id="busuanzi_value_site_pv"></span> times</span>
     <span class="post-meta-divider">|</span>
     <span id="busuanzi_container_site_uv">Number of visitors <span id="busuanzi_value_site_uv"></span> people</span>
-    -->
 </div>
 {% endif %}
-<p>© <span itemprop="copyrightYear">{{ current }}</span> {{ config.author }}.
-    Theme is powered by <a href="https://hexo.io/" target="_blank" class="external" rel="nofollow">Hexo</a>.
-    Theme By <a href="https://github.com/DIYgod/hexo-theme-sagiri" target="_blank" class="external" rel="nofollow">Sagiri</a> v{{ theme.version }}.
-    <a href="{{ url_for(theme.footer.sitemap) }}" target="_blank">Site map</a>.
-</p>
 <p>Made with <i class="fas fa-heart throb" style="color: #d43f57;"></i> by <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright || config.author }}</span>. </p>

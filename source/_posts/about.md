@@ -7,7 +7,6 @@ type: "about"
 Hi, I'm Abozanona, a quiet person, listens to classical music, likes old songs, and addicted to Dota2.
 
 ## Components
-
 | element | feature |
 | ----| ---- |
 | My Statement | Wind, love, code & everything in between! |
@@ -131,6 +130,10 @@ h2 {
 
 .post-body li a {
     margin-right: 10px;
+}
+
+h2#Components + table tr:nth-child(3) td:nth-child(2) {
+    background-image: url(https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.7/images/scribble.svg);
 }
 </style>
 {% endraw %}

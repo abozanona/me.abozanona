@@ -20,8 +20,8 @@ override: false
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
   visibilitychange: true
-  narmal: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.6/images/favicon.ico
-  hidden: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.6/images/failure.ico
+  narmal: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.7/images/favicon.ico
+  hidden: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.7/images/failure.ico
   show_text: (/≧▽≦/)It works now！
   hide_text: (●—●)It collapsed！
   apple_touch_icon: /apple-touch-icon.png
@@ -129,7 +129,7 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.6/images/weathering-with-you-hodaka.png
+avatar: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.7/images/weathering-with-you-hodaka.png
 
 # Table Of Contents in the Sidebar
 toc:
@@ -775,7 +775,7 @@ js: js
 images: images
 
 card:
-  avatar: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.6/images/levi-erwin-aot.png
+  avatar: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.7/images/your-lie-in-april-cat.png
   name: <span style="opacity:.9;">Lead those New recruits into hell.</span>
   description: My Soldiers, Scream!
   items:
