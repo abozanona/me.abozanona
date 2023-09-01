@@ -133,7 +133,7 @@ h2 {
 }
 
 h2#Components + table tr:nth-child(3) td:nth-child(2) {
-    background-image: url(https://cdn.jsdelivr.net/gh/abozanona/abozanona.me@1.0.7/images/scribble.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/images/scribble.svg);
 }
 </style>
 {% endraw %}

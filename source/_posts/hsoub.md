@@ -16,3 +16,10 @@ Hsoub application with be the first in a series of creating mobile applications 
 
 Big thanks to [Sasini](https://io.hsoub.com/u/sasini) for his design for the Hsoub application. You can see the original designs for Sasani on [fnkeely](https://fnkeely.com/15534/%d8%aa%d8%b5%d9%85%d9%8a%d9%85-%d8%b4%d8%b9%d8%a7%d8%b1-%d9%88%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-%d8%ad%d8%b3%d9%88%d8%a8-io/).
 
+------
+
+## Update 24/01/2022
+
+I received a message from Hsoub asking to remove the test app I published on Google play, so I will stop working on the app.
+
+![](https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/images/projects/hsoub/hsoub.png)
