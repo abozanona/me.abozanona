@@ -90,6 +90,11 @@
                 </a>
               </li>
               <li>
+                <a href="https://www.imdb.com/title/tt3895150/" target="_blank">
+                  <i style="font-size:20px" class="fab fa-imdb" style="color:#E1B517"></i><span>Your Lie in April</span>
+                </a>
+              </li>
+              <li>
                 <a href="https://www.imdb.com/title/tt9426210/" target="_blank">
                   <i style="font-size:20px" class="fab fa-imdb" style="color:#E1B517"></i><span>Weathering with You</span>
                 </a>
@@ -100,18 +105,8 @@
                 </a>
               </li>
               <li>
-                <a href="https://www.imdb.com/title/tt0113824/" target="_blank">
-                  <i style="font-size:20px" class="fab fa-imdb" style="color:#E1B517"></i><span>Whisper of the Heart</span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.imdb.com/title/tt2140203/" target="_blank">
-                  <i style="font-size:20px" class="fab fa-imdb" style="color:#E1B517"></i><span>Wolf Children</span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.imdb.com/title/tt0104652/" target="_blank">
-                  <i style="font-size:20px" class="fab fa-imdb" style="color:#E1B517"></i><span>Porco Rosso</span>
+                <a href="mailto:abozanona@gmail.com?subject=That%20Astonishing%20Movie...&body=Hi%20Abozanona%2C%0D%0A%0D%0AI%20have%20found%20a%20movie%20%26%20I'm%20sure%20you'll%20love%20it!%0D%0AMaybe%20we%20should%20watch%20it%20together%3F%0D%0ALet%20me%20know%20when%20you're%20free!%0D%0A%0D%0AYagami%20Light." target="_blank">
+                  <i style="font-size:20px" class="fa fa-video-camera" style="color:#E1B517"></i><span>Should I try a new movie?</span>
                 </a>
               </li>
             </ul>
