@@ -6,6 +6,8 @@ categories: diary
 
 Ten months ago, I embarked on a new chapter of my life, moving to the vibrant city of Hamburg. This marked not only a change in my location but also a significant step in my career as a software engineer. I was fortunate to join Freiheit, an IT company headquartered in Hamburg, and today, I want to share my journey and experiences with this remarkable organization and the beautiful city I now call home.
 
+<!--more-->
+
 ## Discovering freiheit.com
 
 Upon my arrival in Hamburg, I was eager to dive into my new role as a software engineer at freiheit.com. From the very beginning, I felt a sense of belonging and camaraderie among the team members. The company's culture exuded inclusivity, collaboration, and a genuine passion for technology. The people I met were not only highly skilled but also incredibly humble and experienced, making it a nurturing environment for personal and professional growth.
