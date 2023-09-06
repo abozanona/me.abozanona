@@ -11,7 +11,6 @@ Hi, I'm Abozanona, a quiet person, listens to classical music, likes old songs, 
 | ----| ---- |
 | My Statement | Wind, love, code & everything in between! |
 | Statement I Like | Le vent se lève! … il faut tenter de vivre! |
-| Statement #2 | If I mean that much to you, you would just go for it. In the movies, we only have 2 hours. We need to rush things to get the story through. |
 | Birthday | 12th September 1995 |
 | Characteristics | Busy, Slow to respond, Bad in memorization, Offline, Not using social websites |
 | Career | Struts2 & FullStack developer |
@@ -130,10 +129,6 @@ h2 {
 
 .post-body li a {
     margin-right: 10px;
-}
-
-h2#Components + table tr:nth-child(3) td:nth-child(2) {
-    background-image: url(https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/images/scribble.svg);
 }
 </style>
 {% endraw %}
