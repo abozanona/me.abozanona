@@ -70,6 +70,12 @@ However, I've discovered later the beauty of staying active in different ways. N
 
 Additionally, I've embraced boxing lessons 🥊, which not only keep me physically fit but also provide a great mental release. Sometimes, I even push myself to the limits by doing some boxing after work, followed by a late-night bike ride, and I must say, there's an exhilarating freedom in those moments that I absolutely cherish!
 
+## Food
+
+I used to eat a lot of food and follow some good health habits regarding the food I eat. I maintained the same food habits for the first 5 months after I first came to hamburg.
+
+But nowadays I barely eat anything. I even look at myself and wonder how am I still alive with the low food rations I eat 😶. I rarely feel hungry, and I only feel hunger if I see an already prepared food infront of me. My assumption for why is that happening to me is propably because my body isset on the battery saver mode 🔋.
+
 ## Luca
 
 Luca is a chrome extension built on top of react to watching movies with friends. You can [find out more about Luca here](/luca).
