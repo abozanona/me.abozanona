@@ -1,5 +1,5 @@
 ---
-title: 10 months at freiheit.com
+title: Working @ freiheit.com
 date: 2023-08-31 23:23:23
 categories: diary
 ---
