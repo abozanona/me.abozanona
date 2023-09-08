@@ -84,7 +84,7 @@ I stopped working on Luca after the relocation, and everytime I was going to bac
 
 Luca is the project that will make me become a millionaire. I should stop waisting my time and continue working on it 🤦. One of my next goals for the next year should be continue working on Luca.
 
-[Click me if you're interested in the Luca project](javascript:lucaTest()).
+[Click me if you're interested in the Luca project](javascript:lucaTreasureHunt()).
 
 ## freiheit.com
 
