@@ -14,15 +14,89 @@ var Josh = Josh || {};
             getPrompt: function () {
                 return _shell.templates.prompt({ node: self.current });
             },
-            achievements: {
-                quest1: false, // for installing luca package
-                quest2: false, // for playing dota2
-                quest3: false, // Read luca deployment instructions
-                quest4: false, // Deploy Luca to server
-                quest5: false, // Test Luca; watch a movie.
-                quest6: false, // Do some coding
-            }
+            quest1: false, // for installing luca package
+            quest2: false, // for playing dota2
+            quest3: false, // Read luca deployment instructions
+            quest4: false, // Deploy Luca to server
+            quest5: false, // Test Luca; watch a movie.
+            quest6: false, // Do some coding
         };
+
+        (async function (self) {
+            try {
+                let prevWinnersReq = await fetch("/assets/new-winner.php?list");
+                let prevWinnersRes = (await prevWinnersReq.text()).split("<br/>");
+                self.certificaets = prevWinnersRes;
+            } catch (err) {
+                // Silence is golden
+            }
+        })(self);
+        _shell.setCommandHandler("openssl", {
+            exec: function (cmd, args, callback) {
+                if (args[0] === '--help') {
+                    callback("<div>Use this command to create a new certificate for you <br/> Usage: openssl [-l] [your-full-name]</div>")
+                } else if (args[0] === '-l' || args[0] === '--list') {
+                    callback("<div>List of Luca certificates:<br/><pre>" + self.certificaets + "</pre></div>")
+                } else if (self.quest1 && self.quest2 && self.quest3
+                    && self.quest4 && self.quest5 && self.quest6) {
+                    if (!args || args.length == 0) {
+                        callback("<div>Invalid usage: openssl [-l] [your-full-name]</div>");
+                        return;
+                    }
+                    if(self.isCertificateGenerated) {
+                        callback("<div>⚠️ Maximum number of certificates has already been generated. Please contact support for assistance. ⚠️</div>");
+                        return;
+                    }
+                    self.isCertificateGenerated = true;
+                    let fullName = args.join('-');
+                    callback("<div><pre>Generating a 2048 bit RSA private key <br/>" +
+                        ".....................................+++ <br/>" +
+                        ".......................................+++ <br/>" +
+                        "writing new private key to '" + fullName + ".key' <br/>" +
+                        "----- <br/>" +
+                        "You are about to be asked to enter information that will be incorporated <br/>" +
+                        "into your certificate request. <br/>" +
+                        "What you are about to enter is what is called a Distinguished Name or a DN. <br/>" +
+                        "There are quite a few fields but you can leave some blank <br/>" +
+                        "For some fields there will be a default value, <br/>" +
+                        "If you enter '.', the field will be left blank. <br/>" +
+                        "----- <br/>" +
+                        "Country Name (2 letter code) []:DE <br/>" +
+                        "State or Province Name (full name) []:Hamburg <br/>" +
+                        "Locality Name (eg, city) []:Hamburg <br/>" +
+                        "Organization Name (eg, company) []:Luca <br/>" +
+                        "Organizational Unit Name (eg, section) []: <br/>" +
+                        "Common Name (eg, fully qualified host name) []:lucaparty.com <br/>" +
+                        "Email Address []:party@luca.com <br/>" +
+                        " <br/>" +
+                        "Please enter the following 'extra' attributes <br/>" +
+                        "to be sent with your certificate request <br/>" +
+                        "A challenge password []:</pre></div>")
+                    fetch('/assets/new-winner.php?name=' + encodeURIComponent(fullName))
+                        .then((res) => res.text())
+                        .then((res) => {
+                            callback("<div>🎉 Certificate created successfully! 🎉 <br/> see a list of all certificates using <pre>openssl -l</pre></div>")
+                        })
+                        .catch((err) => {
+                            callback("<div>Internal Pointer Error: <br/>" +
+                                "An unexpected issue related to memory pointers has occurred while trying to create the certificate. <br/>" +
+                                "<br/>" +
+                                "Error Details: <br/>" +
+                                "- Error Code: 0x7F34A1 <br/>" +
+                                "- Error Message: Invalid memory access <br/>" +
+                                "- Location: ssl.cpp:2023 <br/>" +
+                                "- Timestamp: 2023-09-15 10:45:00 UTC <br/>" +
+                                "<br/>" +
+                                "Please report this error to the software development team for resolution.</div>")
+                        })
+                } else {
+                    callback("<div>Permission denined: You need to finish all quests to be able to create a new certificate for you.</div>")
+                }
+            },
+            completion: function (cmd, arg, line, callback) {
+                callback(shell.bestMatch(arg, ['--help', '-l', '--list']))
+            }
+        });
 
         _shell.setCommandHandler("bash", {
             exec: function (cmd, args, callback) {
@@ -124,6 +198,7 @@ var Josh = Josh || {};
                     callback('<div>wine-6.0 (Staging)</div>');
                 } else if (args[0] && args[0].includes('dota2.exe')) {
                     self.quest2 = true;
+                    callback('<div></div>');
                 } else if (args[0]) {
                     callback("<div>wine: cannot find '" + args[0] + "'</div>")
                 } else {
@@ -156,6 +231,7 @@ var Josh = Josh || {};
                     response += "🌟 You have now earned the prestigious title of Official Developer for the Luca Chrome extension. 🏆🌐💡 <br/>";
                     response += "📩 Send me a message at abozanona@gmail.com for a more detailed guide on how to start with Luca. 📩📚📝 <br/>";
                     response += "🤩 I look forward to your contributions! 🤩💪👨‍💻👩‍💻 <br/>";
+                    response += "📝 PS. Don't forget to create your Luca developer certificate! 🛠️🔐 <br/>";
                 }
                 response += '</div>';
                 callback(response);
