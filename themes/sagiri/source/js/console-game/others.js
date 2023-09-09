@@ -62,13 +62,13 @@ var Josh = Josh || {};
                                 'Building dependency tree <br/>' +
                                 'Reading state information... Done <br/>' +
                                 'The following additional packages will be installed: <br/>' +
-                                ' package1 package2 <br/>' +
+                                ' freiheit.com <br/>' +
                                 'Suggested packages: <br/>' +
-                                ' suggested-package <br/>' +
+                                ' Google <br/>' +
                                 'The following NEW packages will be installed: <br/>' +
-                                ' luca <br/>' +
+                                ' go, k8s <br/>' +
                                 'The following packages will be upgraded: <br/>' +
-                                ' upgraded-package <br/>' +
+                                ' vue-js <br/>' +
                                 '2 upgraded, 1 newly installed, 0 to remove, and 0 not upgraded. <br/>' +
                                 'Need to get 1234 kB/5678 kB of archives. <br/>' +
                                 'After this operation, 12345 kB of additional disk space will be used. <br/>' +
@@ -174,6 +174,7 @@ var Josh = Josh || {};
                     }
                     else if (args[0] === '--code') {
                         self.quest6 = true;
+                        callback("<div>Thanks for your contribution in Luca code base</div>");
                     }
                     else {
                         window.open('https://github.com/abozanona/luca', "_blank");
@@ -208,7 +209,7 @@ var Josh = Josh || {};
 
         _shell.setCommandHandler("vlc", {
             exec: function (cmd, args, callback) {
-                if (args[0].includes('m4v')) {
+                if (args[0] && args[0].includes('m4v')) {
                     self.quest5 = true;
                     callback("<div>VLC media player x.x.x (revision xxxxx)<br/>" +
                         "[00007f5014007d80] main libvlc: Running vlc with the default interface. Use 'cvlc' to use vlc without interface.<br/>" +
