@@ -68,6 +68,10 @@ The lack of movement feels suffocating; it's as though my very existence depends
 
 However, I've discovered later the beauty of staying active in different ways. Now, I find myself frequently pedaling 🚴 along the scenic Alster Lake or on the facinating Harburg bridge on my bike, savoring the tranquility it offers. I also try to bike to work if I wake up early in the morning and we have a nice weather outside.
 
+I like to listen to music when I go cycling 🎵. My playlist changes every couple of months. I remember I used to listem to songs like Titanium, Immprtals, The promissed Neverland OP, AOT OST, I really like you cover, Hall of fame, & my League of Legends playlist 🔥.
+
+<iframe height="250" src="https://www.youtube.com/embed/KbNL9ZyB49c" style="width:100%;"></iframe>
+
 Additionally, I've embraced boxing lessons 🥊, which not only keep me physically fit but also provide a great mental release. Sometimes, I even push myself to the limits by doing some boxing after work, followed by a late-night bike ride, and I must say, there's an exhilarating freedom in those moments that I absolutely cherish!
 
 ## Food
