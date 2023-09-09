@@ -21,7 +21,8 @@
         License GPLv3+: GNU GPL version 3 or later.<br/>
         <br/>
         This is free software; you are free to change and redistribute it.<br/>
-        There is NO WARRANTY, to the extent permitted by law.</code>
+        There is NO WARRANTY, to the extent permitted by law.<br/>
+        PLEASE NOTE THAT YOU NEED A KEYBOARD TO ACCESS THE TERMINAL</code>
     </div>
     <div id="shell-view">
       <div id="shell-cli"><span class="prompt">/ $</span>&nbsp;<span class="input"><span class="left"></span><span

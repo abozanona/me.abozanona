@@ -149,11 +149,15 @@
         },
         home: {
           abozanona: {
-            '.shh': {
+            '.ssh': {
               'luca_id_ed25519': {},
             },
             Desktop: {
-              'todos.out' : {},
+              'todos.out': {},
+              'love-quotes': {
+                'Loving-can-hurt--loving-can-hurt-sometimes': {},
+                'Loving-can-heal--loving-can-mend-your-soul': {},
+              },
             },
             games: {
               'dota2.exe': {}
