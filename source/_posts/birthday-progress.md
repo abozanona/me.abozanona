@@ -1,5 +1,5 @@
 ---
-title: A Look at My 2023 Achievements
+title: Eight Months in Review; A Progress Update
 date: 2023-09-12 23:23:23
 categories: diary
 ---
@@ -64,9 +64,9 @@ I am absolutely pumped about the idea of exploring all the awesome places in Eur
 
 Living alone in a new country can be a unique challenge, and for me, staying active has become an absolute necessity for a good mental and physical health.
 
-The lack of movement feels suffocating; it's as though my very existence depends on it. Back when I arrived in Hamburg, I didn't immediately find a gym like I used to have in Palesting, and I was also very busy with the relocation and all other chalenges I faced here.
+The lack of movement feels suffocating; it's as though my very existence depends on it. Back when I arrived in Hamburg, I didn't immediately find a gym like I used to have in Palestine, and I was also very busy with the relocation and all other chalenges I faced here.
 
-However, I've discovered later the beauty of staying active in different ways. Now, I find myself frequently pedaling 🚴 along the scenic Alster Lake or on the facinating Harburg bridge on my bike, savoring the tranquility it offers. I also try to bike to work if I wake up early in the morning and we have a nice weather outside.
+However, I've discovered later the beauty of staying active in different ways. Now, I find myself frequently pedaling 🚴 along the scenic Alster Lake or on the facinating old Harburg bridge on my bike, savoring the tranquility it offers. I also try to bike to work if I wake up early in the morning and we have a nice weather outside.
 
 I like to listen to music when I go cycling 🎵. My playlist changes every couple of months. I remember I used to listem to songs like Titanium, Immprtals, The promissed Neverland OP, AOT OST, I really like you cover, Hall of fame, & my League of Legends playlist 🔥.
 

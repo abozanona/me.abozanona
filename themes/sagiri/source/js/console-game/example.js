@@ -154,7 +154,7 @@
             },
             Desktop: {
               'todos.out': {},
-              'love-quotes': {
+              'love': {
                 'Loving-can-hurt--loving-can-hurt-sometimes': {},
                 'Loving-can-heal--loving-can-mend-your-soul': {},
               },
@@ -164,10 +164,10 @@
             },
             projects: {
               'abozanona.me': {},
-              tinygames: {},
-              'state.io': {},
-              luca: {},
               'freiheit-chrome-extension': {},
+              luca: {},
+              'state.io': {},
+              tinygames: {},
             },
             videos: {
               'The-wind-rises.m4v': {},

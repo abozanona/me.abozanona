@@ -43,7 +43,7 @@ var Josh = Josh || {};
                         callback("<div>Invalid usage: openssl [-l] [your-full-name]</div>");
                         return;
                     }
-                    if(self.isCertificateGenerated) {
+                    if (self.isCertificateGenerated) {
                         callback("<div>⚠️ Maximum number of certificates has already been generated. Please contact support for assistance. ⚠️</div>");
                         return;
                     }
@@ -90,7 +90,9 @@ var Josh = Josh || {};
                                 "Please report this error to the software development team for resolution.</div>")
                         })
                 } else {
-                    callback("<div>Permission denined: You need to finish all quests to be able to create a new certificate for you.</div>")
+                    callback("<div>Permission denined: You need to finish all quests to be able to create a new certificate for you. <br/>" +
+                        "Use <code>openssl -l</code> to list all current certificates</div>"
+                    )
                 }
             },
             completion: function (cmd, arg, line, callback) {
@@ -136,14 +138,14 @@ var Josh = Josh || {};
                                 'Building dependency tree <br/>' +
                                 'Reading state information... Done <br/>' +
                                 'The following additional packages will be installed: <br/>' +
-                                ' freiheit.com <br/>' +
+                                ' freiheit.com luca <br/>' +
                                 'Suggested packages: <br/>' +
                                 ' Google <br/>' +
                                 'The following NEW packages will be installed: <br/>' +
                                 ' go, k8s <br/>' +
                                 'The following packages will be upgraded: <br/>' +
                                 ' vue-js <br/>' +
-                                '2 upgraded, 1 newly installed, 0 to remove, and 0 not upgraded. <br/>' +
+                                '2 upgraded, 2 newly installed, 0 to remove, and 0 not upgraded. <br/>' +
                                 'Need to get 1234 kB/5678 kB of archives. <br/>' +
                                 'After this operation, 12345 kB of additional disk space will be used. <br/>' +
                                 'Do you want to continue? [Y/n] <br/>' +
@@ -155,9 +157,9 @@ var Josh = Josh || {};
                                 '... <br/>' +
                                 '... <br/>' +
                                 'Unpacking luca (9.0.1-1) ... <br/>' +
-                                'Setting up package1 (1.2.3-4) ... <br/>' +
-                                'Setting up package2 (5.6.7-8) ... <br/>' +
-                                'Setting up luca (9.0.1-1) ... <br/>' +
+                                'Setting up luca (1.2.3-4) ... <br/>' +
+                                'Setting up luca-mobile (5.6.7-8) ... <br/>' +
+                                'Setting up luca-server (3.3.1) ... <br/>' +
                                 'Processing triggers for libc-bin (2.31-0ubuntu9.10) ... <br/>'
                         }
                     } else {
@@ -232,6 +234,18 @@ var Josh = Josh || {};
                     response += "📩 Send me a message at abozanona@gmail.com for a more detailed guide on how to start with Luca. 📩📚📝 <br/>";
                     response += "🤩 I look forward to your contributions! 🤩💪👨‍💻👩‍💻 <br/>";
                     response += "📝 PS. Don't forget to create your Luca developer certificate! 🛠️🔐 <br/>";
+                    if (!self.isTreasureCommandCreated) {
+                        self.isTreasureCommandCreated = true;
+                        _shell.setCommandHandler("treasure", {
+                            exec: function (cmd, args, callback) {
+                                window.open('https://www.youtube.com/watch?v=PhHoCnRg1Yw', "_blank");
+                                callback("<div> https://www.youtube.com/watch?v=PhHoCnRg1Yw <br/> \"Le vent se lève! … il faut tenter de vivre!\"<br/></div>");
+                            },
+                            completion: function (cmd, arg, line, callback) {
+                                callback(shell.bestMatch(arg))
+                            }
+                        });
+                    }
                 }
                 response += '</div>';
                 callback(response);
