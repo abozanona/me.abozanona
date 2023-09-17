@@ -1,6 +1,6 @@
 ---
 title: How to modify referer header in Chrome
-date: 2022-09-17 23:23:23
+date: 2023-09-17 23:23:23
 categories: technical
 ---
 
