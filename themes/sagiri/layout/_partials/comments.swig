@@ -27,7 +27,7 @@
       <div id="disqus_thread">
         <div id="dsqjs">
           <section class="dsqjs-info">
-            <p id="dsqjs-load-disqus" class="dsqjs-message">评论完整模式加载中...如果长时间无法加载，请针对 disq.us | disquscdn.com | disqus.com 启用代理</p>
+            <p id="dsqjs-load-disqus" class="dsqjs-message">Loading comments..</p>
           </section>
         </div>
       </div>

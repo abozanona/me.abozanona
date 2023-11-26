@@ -19,7 +19,7 @@ if (document.getElementById('evanyou')) {
     var img = new Image;
     img.onload = function () {
       x.clearRect(0, 0, w, h)
-      x.drawImage(img, w / 2 - img.width / 2 + 50, h / 2 - img.height / 2 + 50);
+      x.drawImage(img, w / 2 - img.width / 2 + 400, h / 2 - img.height / 2 + 200);
       q = [{ x: 0, y: h * .7 + f }, { x: 0, y: h * .7 - f }]
       while (q[1].x < w + f) d(q[0], q[1])
     };

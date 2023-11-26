@@ -8,7 +8,7 @@ if (!NexT.utils.isMobile()) {
       fixed: true,
     });
     $.ajax({
-      url: 'https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/assets/playlest.json?v=0.0.79', //TODO: Read from theme settings
+      url: 'https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/assets/playlest.json?v=0.0.80', //TODO: Read from theme settings
       success: function (list) {
         apFixed.list.add(list);
       }

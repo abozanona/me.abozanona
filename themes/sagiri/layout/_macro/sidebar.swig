@@ -30,7 +30,7 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             {% if theme.avatar %}
-              <img class="site-author-image" itemprop="image"
+              <img class="site-author-image" itemprop="image" onclick="lucaTreasureHunt()"
                 src="{{ url_for( theme.card.avatar | default(theme.images + '/card.jpg') ) }}"
                 alt="{{ theme.author }}" />
             {% endif %}
