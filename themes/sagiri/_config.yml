@@ -332,7 +332,7 @@ han: false
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: abozanona-me
   count: false
 # Hypercomments
@@ -771,7 +771,7 @@ js: js
 images: images
 
 card:
-  avatar: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/images/your-lie-in-april-cat.png
+  avatar: https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/images/your-lie-in-april-cat.gif
   name: <span style="opacity:.9;">Lead those New recruits into hell.</span>
   description: My Soldiers, Scream!
   items:
