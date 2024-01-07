@@ -12,7 +12,6 @@ categories: diary
 <link rel="stylesheet" href="https://demos.ramon.codes/zuck.js/dist/skins/snapgram.css">
 <link rel="stylesheet" href="https://demos.ramon.codes/zuck.js/dist/zuck.min.css">
 <style>.tip.link {pointer-events: none;} #zuck-modal.with-effects{position: fixed !important;}</style>
-<script src="https://demos.ramon.codes/zuck.js/dist/zuck.min.js"></script>
 
 <div id="stories" class="storiesWrapper"></div>
 
@@ -25,38 +24,46 @@ categories: diary
       cubeEffect: true,
       paginationArrows: false
     };
-    fetch("/assets/stories.json").then(res => res.json()).then(res => {
-        groupArray = res.reduce((group, entry) => {
-                const time = new Date(entry.time).toISOString().split('T')[0];
-                group[time] = group[time] ?? [];
-                group[time].push(entry);
-                return group;
-            }, {});
-        groupArray = Object.entries(groupArray).map(el =>  {
-                return Zuck.buildTimelineItem(
-                    el[0], 
-                    getAvatar(el[0]),
-                    el[0],
-                    "",
-                    new Date(el[1][0]).getTime() / 1000,
-                    el[1].map(story => ([
-                        story.time, story.type, 10, story.url, false, story.description?'#!':false, story.description, false, new Date(story.time).getTime() / 1000
-                    ]))
-                )
-            })
-        var stories = new Zuck('stories', {
-            backNative: true,
-            previousTap: true,
-            skin: currentSkin['name'],
-            autoFullScreen: currentSkin.autoFullScreen,
-            avatars: currentSkin.avatars,
-            paginationArrows: currentSkin.paginationArrows,
-            list: currentSkin.list,
-            cubeEffect: currentSkin.cubeEffect,
-            localStorage: true,
-            stories: groupArray.reverse()
-        }
-        )
+
+    var zuckScript      = document.createElement('script');
+    zuckScript.src      = "https://demos.ramon.codes/zuck.js/dist/zuck.min.js";
+    zuckScript.async    = false; 
+    document.body.appendChild(zuckScript); 
+    
+    zuckScript.addEventListener('load', () => {
+        fetch("/assets/stories.json").then(res => res.json()).then(res => {
+            groupArray = res.reduce((group, entry) => {
+                    const time = new Date(entry.time).toISOString().split('T')[0];
+                    group[time] = group[time] ?? [];
+                    group[time].push(entry);
+                    return group;
+                }, {});
+            groupArray = Object.entries(groupArray).map(el =>  {
+                    return Zuck.buildTimelineItem(
+                        el[0], 
+                        getAvatar(el[0]),
+                        el[0],
+                        "",
+                        new Date(el[1][0]).getTime() / 1000,
+                        el[1].map(story => ([
+                            story.time, story.type, 10, story.url, false, story.description?'#!':false, story.description, false, new Date(story.time).getTime() / 1000
+                        ]))
+                    )
+                })
+            var stories = new Zuck('stories', {
+                backNative: true,
+                previousTap: true,
+                skin: currentSkin['name'],
+                autoFullScreen: currentSkin.autoFullScreen,
+                avatars: currentSkin.avatars,
+                paginationArrows: currentSkin.paginationArrows,
+                list: currentSkin.list,
+                cubeEffect: currentSkin.cubeEffect,
+                localStorage: true,
+                stories: groupArray.reverse()
+            }
+            )
+        });
     });
 </script>
 
