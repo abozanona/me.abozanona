@@ -1,0 +1,104 @@
+---
+title: Occupation's settlements in the Westbank
+date: 2024-01-18 23:23:23
+categories: diary
+---
+
+Amer Abu Hujla is a Palestinian farmer living in a village called Deir Istiya in the West Bank. One day, he and his family went to pick their olive trees in their land. To their surprise, they found a large group of settlers digging a pit and constructing a swimming pool, surrounded by many seats.
+
+<!--more-->
+
+<iframe height="250" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FRadioBaladnaNewsNetwork%2Fvideos%2F3408356359240801%2F" style="width:100%;"></iframe>
+
+Amer quickly called his relatives and neighbors, and together they managed to drive the settlers away and fill the pit they had dug. Shortly after, Amer returned to his land, only to be accused by the settlers who complained about him. Consequently, Amer was taken to the Ofer Prison, where he remained imprisoned for an extended period, only gaining release after paying a hefty fine.
+
+Amer is considered quite lucky when compared to what happened to Abdullah Yasin from the village of Yasuf. Abdullah, anticipating trouble, decided to fence off his land before the settlers could come and damage it. One day, he arrived to find not only had the settlers demolished his fence, but they had also uprooted and destroyed the olive trees that took years of care and hard work to cultivate.
+
+Amer and Abdullah are considered lucky compared to what happened to Mithqal Rayan from the village of Qarawat Bani Hasan. Just a few months ago, settlers shot and killed him while he was trying to defend his land.
+
+- [source: A Palestinian was killed by Israeli settler gunfire in the West Bank](https://www.aa.com.tr/ar/%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84/%D9%85%D9%82%D8%AA%D9%84-%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A-%D8%A8%D8%B1%D8%B5%D8%A7%D8%B5-%D9%85%D8%B3%D8%AA%D9%88%D8%B7%D9%86-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D8%A8%D8%A7%D9%84%D8%B6%D9%81%D8%A9-/2816288#)
+
+Similarly, Fawzi, another resident, faced a tragic fate when Israeli soldiers fired at him and killed him near Nablus. The way he was shot represents the occupation army command’s instructions to soldiers in the field to always place a bullet in the house of fire, that is, in a permanent position to fire ammunition. This is also known as the "shoot first, ask later" policy which means that the Israeli soldier has the right to pull the trigger whenever He sensed danger, and wanted to kill without hesitation, without batting an eyelid, and to ask questions later. This is the same policy that led to the killing of three Israeli hostages in the last war in Gaza.
+
+- [source: Palestinians call for probe into Israeli killing of teenager](https://www.aljazeera.com/news/2023/7/22/palestinians-call-for-probe-into-israeli-killing-of-teenager)
+- [source: How Israel’s 'shoot first, ask later' policy turns against its own citizens](https://www.trtworld.com/magazine/how-israels-shoot-first-ask-later-policy-turns-against-its-own-citizens-16302493)
+
+Since the beginning of the current war on Gaza, Israel has consistently employed global media outlets to convey a narrative that emphasizes their stance. They assert that their war is not against the Palestinian people as a whole; rather, they claim to have an issue solely with Hamas. According to their narrative, without Hamas, Palestinians would live in peace and prosperity, and Israel would have no problem with them. This propaganda aims to downplay the broader complexities of the Israeli-Palestinian conflict and present a simplified version that aligns with their perspective.
+
+What is happening in the West Bank mirrors some aspects of the war on Gaza, but at a slower pace. The current government under Netanyahu represents the most right-wing and extremist administration in Israel's history. The influence of settlers is so significant that statements from some officials in this government even provoke officials within the United States government. The situation in the West Bank, despite being distinct from Gaza, is characterized by ongoing tensions and challenges, contributing to the overall complexity of the Israeli-Palestinian conflict.
+
+Multiple times in the past year, and even before the current conflict, American officials criticized statements made by individuals such as Itamar Ben Gvir and Zviel Smotrich, among others. What sets these two apart is that they are settlers residing in the West Bank and simultaneously hold ministerial positions in the Israeli government. This dual role raises legal and ethical questions, as they are ministers in a government while living outside its recognized borders. It's akin to imagining a scenario where the Italian Minister of Foreign Affairs resides in Greece. The intertwining of settlement residency and governmental roles has created a complex situation, prompting scrutiny and concerns.
+
+Looking back to the period before the June 1967 Six-Day War, despite Israel's control over most of historical Palestine, there were voices within Israel itself expressing dissatisfaction. Even as Israel dominated a significant portion of Palestinian territories, there was a movement within Israeli society, led by figures such as Rabbi Yehuda Kook, that considered it a failure. Rabbi Kook criticized the founders of the Israeli state, declaring, "You abandoned Judea and Samaria," referring to the biblical names for the West Bank. At that time, the West Bank was part of the Hashemite Kingdom of Jordan after the 1948 Arab-Israeli War. However, following the Arab armies' defeat in the 1967 War, Israel occupied the West Bank, Gaza Strip, Sinai Peninsula, and the Golan Heights.
+
+- [Palestine map accourding to UN: Decolonization - World In 1945](https://en.m.wikipedia.org/wiki/File:Decolonization_-_World_In_1945_en.svg)
+- [Palestine map accourding to UN: The world in 1945](https://digitallibrary.un.org/record/710999)
+- [source: Israel-Palestine conflict: A brief history in maps and charts](https://www.aljazeera.com/news/2023/11/27/palestine-and-israel-brief-history-maps-and-charts)
+
+For Rabbi Kook's disciples, the occupation of the West Bank symbolized a divine sign, encouraging them to settle in and claim the land. This perspective laid the groundwork for the settlement movement, which later became a contentious issue in the Israeli-Palestinian conflict.
+
+During Levi Eshkol's tenure as the Prime Minister of Israel, when Israeli law viewed the West Bank as foreign territory that their military had seized, the legal advisor, Theodor Meron, responded by sending a confidential message to the Prime Minister, stating that according to the law, they had no right to settle in the land. He emphasized that the territory was not theirs; it was occupied, and this contradicted the Geneva Conventions, to which Israel was a signatory.
+
+Meron made it clear that, according to international law, it was impermissible for an occupying state to transfer its civilian population to the territories it had occupied. Despite this legal advice, when the Israeli government learned that international law prohibited such actions, they went ahead with the establishment of settlements. They chose to disregard international law and agreements. Confronted with the religious extremists associated with Rabbi Kook, the government essentially told them to build seletments wherever they wanted in the westbank, not adhering to international legal standards.
+
+The Israeli settlement in the West Bank did not solely emerge from religious motivations; there were also strategic and security considerations, particularly during the late 1960s. According to Israeli officials of that time, the primary purpose of the settlements was military and security-oriented.
+
+During a television interview, Yigal Allon, who was the Deputy Prime Minister of Israel at the time, was asked about the justifications for the settlements. He responded that there was no need for historical or ethical justifications; it was purely a strategic defense policy. Allon explained that when they establish a settlement in a particular location, it automatically becomes part of their defense system. The interviewer pressed him, questioning whether the world would remain silent while Israel pursued settlement policies that violated international laws. Allon confidently asserted that the world could indeed stand idly by, accepting Israel's actions.
+
+The mentioned plan by Yigal Allon indeed played a crucial role in shaping Israeli territorial control, especially after the 1967 Six-Day War. At that time, Yigal Allon held the position of Minister of Labor and later became Deputy Prime Minister. His plan involved establishing a security barrier along the West Bank, running parallel to the Jordan River, encompassing the Jordan Valley, which Israel later seized.
+
+The Jordan Valley, known as the "Al-Ghawar," became a strategic target for Israel due to both economic and security reasons. Economically, it served as the West Bank's breadbasket, boasting fertile land and a climate conducive to year-round agriculture. Additionally, security considerations played a significant role, as Palestinian factions were concentrated in Jordan during the late 1960s. Israel sought to control the Jordan Valley to diminish the influence and operations of Palestinian guerrilla groups that had operated from Jordan.
+
+The move to clear the Jordan Valley and designate it as a closed military zone aimed at both economic and security objectives. Economically, Israel wanted to control the region's resources, while security-wise, the plan aimed to cut off Palestinian factions from the Jordanian side. This strategy of creating physical separations between territories and controlling key areas has been a recurring theme in Israeli policy, as demonstrated in current events, such as the pursuit of strategic control over the Philadelphia Corridor to separate Gaza from Egypt.
+
+After securing control over the Jordan Valley, Israel turned its attention to creating a second belt of settlements along the Green Line in the western part of the West Bank. The Green Line was established as a demarcation line between Israel and Jordan after the armistice following the 1948 Arab-Israeli War. The purpose of this belt of settlements was similar to that of the Jordan Valley – to hinder communication between the West Bank, Jerusalem, and the areas occupied by Israel in 1948.
+
+This settlement belt, along with the Jordan Valley, created a strategic barrier, restricting connectivity and movement between different Palestinian territories. Additionally, there is a settlement axis known as Ariel or Trans-Samaria. It essentially forms a line of settlements starting west of the Green Line and diverges within the West Bank until reaching the settlements in the eastern part of the Jordan Valley. This configuration encircles the West Bank, effectively dividing it into two halves.
+
+In essence, these settlement strategies were aimed at both controlling key economic and agricultural areas and creating barriers to the geographic and social unity of Palestinian territories, following a pattern that aligns with historical Israeli policies in the region.
+
+- [more details: Who are Israeli settlers, and why do they live on Palestinian lands?](https://www.aljazeera.com/news/2023/11/6/who-are-israeli-settlers-and-why-do-they-live-on-palestinian-lands)
+
+Where did they secure the lands on which they're building these houses in general? When Israel initially occupied the West Bank, it categorized the lands into three sections:
+1. Public State Lands:
+Israel claimed them as state property, asserting its control over them, despite this conflicting with international law.
+
+2. Lands of Palestinians who fled after the 1967 war:
+Israel pondered how to address the legal aspect, and being keen on legal formalities, they enacted the "Absentee Property Law" in 1967. This law facilitated Israel's acquisition of lands belonging to Palestinians who were absent due to the 1967 war. In summary, Israel placed its hands on the majority of West Bank lands through this section, leaving only the third section – private lands owned by Palestinians still residing in the West Bank. However, this section has not been fully executed by Israel. 
+
+3. Pretext of public interest
+It's worth noting that if you own land with documented proof in your name, the government can expropriate it under the pretext of public interest, claiming it serves public benefit. For example, if your land is in the path of a planned separation barrier, they might leave it or take it based on the perceived greater public interest. The situation became more challenging for Palestinians witnessing the substantial funds successive Israeli governments allocate to build settlements, develop, and pamper them, while Palestinian areas suffer complete neglect. This has led to frustration, accusation, and a divide among Palestinians.
+
+Even after participating in the Oslo Accords in 1993, which granted the Palestinian Authority the ability to administer major population centers in the West Bank, the situation did not witness significant development. About 60% of the West Bank's area, particularly outside major cities, continued to be under direct Israeli occupation, and the promise of settlement cessation, as per the Oslo Accords, was short-lived, with settlements resuming and expanding.
+
+On the day of the Oslo Accords signing, the number of settlers in the West Bank was around 268,000. Today, the number has increased to approximately 750,000 settlers, nearly tripling in this period. During this time, Israeli officials were publicly stating that settlement activities were frozen or, at the very least, claiming that they were not actively supporting them. However, in reality, government support for settlement construction in the West Bank did not stop, even during the administrations of Rabin, Peres, and Barak, who were considered more moderate. The distinction was that those classified as moderates were supporting settlement activities discreetly, under the table. In contrast, the extremists, such as Sharon and Netanyahu, openly declared their support for settlement construction in the West Bank, showing little concern for international resolutions or U.S. criticisms.
+
+A clear example that illustrates the lack of distinction between moderate and extremist Israeli governments is the phenomenon of settlement outposts. An Israeli settler, without formal approval, might decide to set up a tent or bring a caravan to an area of interest in the Palestinian territories. This can be considered a mini-settlement, and it reflects the on-the-ground reality. The concept was initiated by Ariel Sharon when he was the Minister of Infrastructure in 1996. He encouraged settlers to find strategic locations in hills and elevated areas, and settle there. These settlement outposts began to emerge in 1996, right after the Oslo Accords, and have continued to grow under various Israeli governments, whether right-wing or left-wing.
+
+The Israeli government officially denies recognizing these outposts as authorized settlements. However, in practice, successive Israeli governments have provided them with essential services such as electricity, water, and education. The settlers who strategically plan, build, and develop these outposts receive support from the Israeli government, despite the government's formal denial of their legitimacy. These outposts are treated as if they were part of Israel, even though they are located in the West Bank. The numbers of both settlement outposts and their population have increased, and their areas have expanded since the Oslo Accords.
+
+- [source: Wikipedia - Israeli outpost](https://en.wikipedia.org/wiki/Israeli_outpost)
+
+The largest settlement in the West Bank is considered Ma'ale Adumim, and its establishment began in 1994 during Rabin's government, following the signing of the Oslo Accords II. As for the second-largest Israeli settlement, it is Betar Illit, with a population of approximately 70,000 people. Looking back to the time when the peace agreements began, around 30 years ago, the population of Betar Illit did not exceed 5,000 during the 30 years after the settlement freeze; its population increased 14 times. This implies that if there hadn't been a freeze on construction during that period, the increase would have been even greater.
+
+The question that arises is: What drives the government of the occupying state to support the construction of settlements in the West Bank despite international opposition? This is attributed to the desire to assert control over the land, achieve strategic and political goals, and send strong messages to the Palestinians and the international community, despite widespread reservations and objection to this policy.
+
+The reality, when you look at the map and observe the distribution of settlements across the West Bank, without being a military or strategic analyst, it becomes evident that the goal is to eliminate any hope of establishing a viable Palestinian state able to stand on its own and sustain life. The Palestinian territories in the West Bank have transformed or have been transformed into scattered islands, distant from each other, lacking any geographical or population connectivity. Broad bypass roads, restricted to Israelis, sever these areas, making communication between them difficult.
+
+As the writer and Palestinian legal expert Raif Fazaa states, the occupied Palestinian territories in the West Bank have become simultaneously closer and farther inside and outside Israel. If we see Gaza as a type of violence, bombing, and massacres, the West Bank experiences a different kind of violence with various urban and organizational schemes aiming to prevent Palestinians from living comfortably. Examples include the construction of the apartheid wall, which cuts through Palestinian lands, and the approximately 108 fixed military checkpoints in the West Bank that impede and complicate the lives of Palestinians.
+
+The 770-meter-long apartheid wall, along with the military checkpoints, create a fragmented and restricted living environment for Palestinians, disrupting their daily lives and causing considerable suffering. The situation worsened after October 7; the number of settlers increased, and they became more violent, attacking Palestinian homes more aggressively. In the past three months alone, the number of Palestinian martyrs reached 317, reflecting the escalation of violence.
+
+This suffering is exacerbated by the support and encouragement of high-ranking Israeli officials. Minister Uri Ariel announced the distribution of 4,000 weapons to settlers, indicating the alarming situation. Despite all these challenges, the Palestinian struggle continues in the face of Israeli policies and actions.
+
+Many intellectuals and certain Israeli political currents argue that the danger of annexing lands in the West Bank, building settlements, and venturing into its depths lies in either eliminating the Jewish character of the state or jeopardizing the establishment of a Palestinian state. They say that canceling the project of establishing a Palestinian state and annexing the West Bank to Israel will lead to one of two outcomes.
+
+Firstly, it could mean the elimination of the Jewish character of the state, as the population of Palestinians in the West Bank, surpassing 3 million, would become the majority on the greater land of Israel from the sea to the river, encompassing the historic Palestinian territories. Since the inception of Zionist presence in the occupied lands, they have always expressed reluctance to become a minority on this land. They argue that they are not ready to be a minority in a state where Arabs constitute the majority. If they are not prepared for this, there is a second possibility.
+
+Secondly, it may result in the preservation of a Jewish state of Israel, but it would require openly adopting an apartheid system—a state of racial segregation. In this scenario, there would be laws for Arabs and laws for Jews. Palestinians would live a life of poverty, marginalization, and oppression. The Israeli, who is sitting on the land he confiscated, enjoys a better life. This situation would threaten the security and stability of the occupying state, creating internal disturbances, security challenges, and international pressures over time. It could lead to problems similar to the pressures that South Africa faced under the apartheid regime, ultimately causing its collapse.
+
+<br/>
+
+Article content is a translation for the video "How do the people of the West Bank live? Is it really not occupied?"
+
+<iframe height="250" src="https://www.youtube.com/embed/C_v-26UQhpc" style="width:100%;"></iframe>

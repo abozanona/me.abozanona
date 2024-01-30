@@ -32,8 +32,16 @@ categories: diary
     
     zuckScript.addEventListener('load', () => {
         fetch("/assets/stories.json").then(res => res.json()).then(res => {
-            groupArray = res.reduce((group, entry) => {
-                    const time = new Date(entry.time).toISOString().split('T')[0];
+            let storiesList = [];
+            for(el of res) {
+                if(el.count) {
+                    storiesList.push(...Array(el.count).fill(el).map((st, indx) => ({...st, url: st.url + "&index="+indx})))
+                } else {
+                    storiesList.push(el);
+                }
+            }
+            groupArray = storiesList.reduce((group, entry) => {
+                const time = new Date(entry.time).toISOString().split('T')[0];
                     group[time] = group[time] ?? [];
                     group[time].push(entry);
                     return group;
@@ -50,6 +58,7 @@ categories: diary
                         ]))
                     )
                 })
+            let reversedArray = groupArray.reverse();
             var stories = new Zuck('stories', {
                 backNative: true,
                 previousTap: true,
@@ -60,7 +69,7 @@ categories: diary
                 list: currentSkin.list,
                 cubeEffect: currentSkin.cubeEffect,
                 localStorage: true,
-                stories: groupArray.reverse()
+                stories: reversedArray
             }
             )
         });
