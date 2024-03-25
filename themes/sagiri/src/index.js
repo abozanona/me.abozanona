@@ -13,7 +13,6 @@ require('./scrollspy');
 require('./post-details')();
 require('./bootstrap');
 require('./evanyou');
-require('./leancloud')();
 require('./share')();
 require('./scroll');
 require('./since');

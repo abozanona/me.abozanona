@@ -100,12 +100,6 @@
 {% endif %}
 
 
-{% if theme.facebook_sdk.enable and theme.facebook_sdk.webmaster %}
-  <meta property="fb:admins" content="{{ theme.facebook_sdk.fb_admin }}" />
-  <meta property="fb:app_id" content="{{ theme.facebook_sdk.app_id }}" />
-{% endif %}
-
-
 {{
   open_graph({
     twitter_id: theme.twitter,
@@ -133,21 +127,12 @@
       subtitle: '{{ theme.subtitle }}',
       author: '{{ theme.author }}'
     },
-    duoshuo: {
-      userId: '{{ theme.duoshuo_info.user_id | default() }}',
-      author: '{{ theme.duoshuo_info.admin_nickname | default(__('author'))}}'
-    },
     algolia: {
       applicationID: '{{ theme.algolia.applicationID }}',
       apiKey: '{{ theme.algolia.apiKey }}',
       indexName: '{{ theme.algolia.indexName }}',
       hits: {{ theme.algolia_search.hits | json_encode }},
       labels: {{ theme.algolia_search.labels | json_encode }}
-    },
-    leancloud: {
-      enable: {{theme.leancloud_visitors.enable}},
-      appID: '{{theme.leancloud_visitors.app_id}}',
-      appKey: '{{theme.leancloud_visitors.app_key}}'
     },
     favicon: {
       visibilitychange: {{theme.favicon.visibilitychange}},
@@ -160,7 +145,6 @@
 </script>
 {% set js_vendors = {} %}
 {% set js_vendors.jquery      = true %}
-{% set js_vendors.disqusjs    = true %}
 {% for name, internal in js_vendors %}
   <script type="text/javascript" src="{{ theme.vendors[name] }}"></script>
 {% endfor %}

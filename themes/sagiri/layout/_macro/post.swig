@@ -139,65 +139,7 @@
           {% endif %}
 
           {% if post.comments %}
-            {% if (theme.duoshuo and theme.duoshuo.shortname) or theme.duoshuo_shortname %}
-              <span class="post-comments-count">
-                <span class="post-meta-divider">•</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="{{ post.path }}" itemprop="commentCount"></span>
-                </a>
-              </span>
-            {% elseif theme.facebook_comments_plugin.enable %}
-              <span class="post-comments-count">
-                <span class="post-meta-divider">•</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count fb-comments-count" data-href="{{ post.permalink }}" itemprop="commentCount">0</span> comments
-                </a>
-              </span>
-            {% elseif theme.disqus.enable and theme.disqus.count %}
-              <span class="post-comments-count">
-                <span class="post-meta-divider">•</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="{{ post.path }}" itemprop="commentCount"></span>
-                </a>
-              </span>
-            {% elseif theme.hypercomments_id %}
-            <!--noindex-->
-              <span class="post-comments-count">
-                <span class="post-meta-divider">•</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count hc-comment-count" data-xid="{{ post.path }}" itemprop="commentsCount"></span>
-                </a>
-              </span>
-              <!--/noindex-->
-            {% elseif theme.changyan.enable and theme.changyan.appid and theme.changyan.appkey %}
-              <span class="post-comments-count">
-              <span class="post-meta-divider">•</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-comment-o"></i>
-              </span>
-              {% if is_post() %}
-                <a href="{{ url_for(post.path) }}#SOHUCS" itemprop="discussionUrl">
-                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="{{ post.path }}" itemprop="commentsCount"></span>
-                </a>
-              {% else %}
-                <a href="{{ url_for(post.path) }}#SOHUCS" itemprop="discussionUrl">
-                  <span id="url::{{ post.permalink }}" class="cy_cmt_count" data-xid="{{ post.path }}" itemprop="commentsCount" ></span>
-                </a>
-              {% endif %}
-            {% elseif is_post() and theme.gitment.enable and theme.gitment.mint and theme.gitment.count %}
+            {% if is_post() and theme.gitment.enable and theme.gitment.mint and theme.gitment.count %}
               <span class="post-comments-count">
                 <span class="post-meta-divider">•</span>
                 <span class="post-meta-item-icon">
@@ -208,21 +150,6 @@
                 </a>
               </span>
             {% endif %}
-          {% endif %}
-
-          {# LeanCould PageView #}
-          {% if theme.leancloud_visitors.enable %}
-             <span id="{{ url_for(post.path) }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
-               <span class="post-meta-divider">•</span>
-               <span class="post-meta-item-icon">
-                 <i class="far fa-eye"></i>
-               </span>
-               {% if theme.post_meta.item_text %}
-                 <span class="post-meta-item-text">被</span>
-               {% endif %}
-                 <span class="leancloud-visitors-count"></span>
-                 <span class="post-meta-item-text">人看爆</span>
-             </span>
           {% endif %}
 
           {% if not is_index and theme.busuanzi_count.enable and theme.busuanzi_count.page_pv %}
@@ -322,6 +249,15 @@
       </div>
     {% endif %}
 
+    <script src="https://utteranc.es/client.js"
+        repo="abozanona/abozanona.me"
+        issue-term="pathname"
+        label="site comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
     {% if not is_index %}
       <div class="post-share">Share it:</div>
     {% endif %}
@@ -355,12 +291,6 @@
             {% if theme.vkontakte_api.enable and theme.vkontakte_api.like %}
               <div class="vk_like">
                 <span id="vk_like"></span>
-              </div>
-            {% endif %}
-
-            {% if theme.facebook_sdk.enable and theme.facebook_sdk.like_button %}
-              <div class="fb_like">
-                <div class="fb-like" data-layout="button_count" data-share="true"></div>
               </div>
             {% endif %}
           </div>

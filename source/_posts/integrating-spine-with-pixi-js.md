@@ -12,7 +12,7 @@ During the development of Petmety, I encountered a perplexing issue while attemp
 
 ![](https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/images/projects/integrating-spine-with-pixi-js/petmety-before.gif)
 
-I delved into potential solutions, turning to Spine's documentation for guidance. There, I discovered references to external libraries that promised to address rendering issues. My research led me to explore various JavaScript libraries compatible with Spine animations. Among them, [PIXI.js](https://pixijs.com/) emerged as the standout choice. Renowned for its versatility and active development community, PIXI.js seemed tailor-made for the task.
+I delved into potential solutions, turning to PIXI's documentation for guidance. There, I discovered references to external libraries that promised to address rendering issues. My research led me to explore various JavaScript libraries compatible with Spine animations. Among them, [PIXI.js](https://pixijs.com/) emerged as the standout choice. Renowned for its versatility and active development community, PIXI.js seemed tailor-made for the task.
 
 However, my journey was far from over. PIXI.js presented its own set of challenges, particularly concerning its multitude of versions and broken [online examples](https://pixijs.io/examples-v7/#/plugin-spine/spineboy-pro). With significant disparities between versions 6, 7, and 8, finding relevant and functional examples proved arduous. Despite the official documentation's wealth of resources, many examples failed to execute properly, complicating my efforts to implement Spine animations seamlessly.
 

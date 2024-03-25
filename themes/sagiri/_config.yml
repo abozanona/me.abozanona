@@ -321,40 +321,6 @@ mathjax:
 # Han Support docs: https://hanzi.pro/
 han: false
 
-# Swiftype Search API Key
-#swiftype_key:
-
-# Baidu Analytics ID
-#baidu_analytics:
-
-# Duoshuo ShortName
-#duoshuo_shortname:
-
-# Disqus
-disqus:
-  enable: false
-  shortname: abozanona-me
-  count: false
-# Hypercomments
-#hypercomments_id:
-
-# changyan
-changyan:
-  enable: false
-  appid:
-  appkey:
-
-
-# Valine.
-# You can get your appid and appkey from https://leancloud.cn
-# more info please open https://github.com/xCss/Valine
-valine:
-  enable: false
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
-  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
-  verify: false # Verification code
-  placeholder: Comment input placeholder
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
@@ -394,9 +360,6 @@ gitment:
 #jiathis:
   ##uid: Get this uid from http://www.jiathis.com/
 #add_this_id:
-
-# Share
-#duoshuo_share: true
 
 # NeedMoreShare2
 # This plugin is a pure javascript sharing lib which is useful in China.
@@ -449,34 +412,8 @@ google_analytics_2: UA-51694270-2
 # See https://azure.microsoft.com/en-us/services/application-insights/
 # application_insights:
 
-# Make duoshuo show UA
-# user_id must NOT be null when admin_enable is true!
-# you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: true
-  admin_enable: false
-  user_id: 0
-  #admin_nickname: Author
-
 # Post widgets & FB/VK comments settings.
 # ---------------------------------------------------------------
-# Facebook SDK Support.
-# https://github.com/iissnan/hexo-theme-next/pull/410
-facebook_sdk:
-  enable:       false
-  app_id:       #<app_id>
-  fb_admin:     #<user_id>
-  like_button:  #true
-  webmaster:    #true
-
-# Facebook comments plugin
-# This plugin depends on Facebook SDK.
-# If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
-facebook_comments_plugin:
-  enable:       false
-  num_of_posts: 10    # min posts num is 1
-  width:        100%  # default width is 550px
-  scheme:       light # default scheme is light (light or dark)
 
 # VKontakte API Support.
 # To get your AppID visit https://vk.com/editapp?act=create
@@ -494,13 +431,6 @@ rating:
   id:     #<app_id>
   color:  fc6423
 # ---------------------------------------------------------------
-
-# Show number of visitors to each article.
-# You can visit https://leancloud.cn get AppID and AppKey.
-leancloud_visitors:
-  enable: false
-  app_id:
-  app_key:
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -683,8 +613,6 @@ canvas_ribbon:
 vendors:
   # Internal path prefix. Please do not edit it.
   _internal: lib
-
-  disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1.2.2/dist/disqus.js
 
   # Internal version: 2.1.3
   jquery: https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js
