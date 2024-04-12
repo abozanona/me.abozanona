@@ -138,20 +138,6 @@
             </span>
           {% endif %}
 
-          {% if post.comments %}
-            {% if is_post() and theme.gitment.enable and theme.gitment.mint and theme.gitment.count %}
-              <span class="post-comments-count">
-                <span class="post-meta-divider">•</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count gitment-comments-count" data-xid="{{ url_for(post.path) }}" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            {% endif %}
-          {% endif %}
-
           {% if not is_index and theme.busuanzi_count.enable and theme.busuanzi_count.page_pv %}
             <span class="post-meta-divider">•</span>
             <span class="page-pv">{{ theme.busuanzi_count.page_pv_header }}
@@ -249,6 +235,7 @@
       </div>
     {% endif %}
 
+    {% if not is_home() %}
     <script src="https://utteranc.es/client.js"
         repo="abozanona/abozanona.me"
         issue-term="pathname"
@@ -257,6 +244,7 @@
         crossorigin="anonymous"
         async>
     </script>
+    {% endif -%}
 
     {% if not is_index %}
       <div class="post-share">Share it:</div>
