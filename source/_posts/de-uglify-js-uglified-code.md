@@ -1,5 +1,5 @@
 ---
-title: Experiance when scraping data from websites
+title: Experiance with scraping data from websites
 date: 2024-05-17 23:23:23
 categories: project
 ---
