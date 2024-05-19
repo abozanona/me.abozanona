@@ -6,7 +6,7 @@ categories: project
 
 One of the projects I'm working on has recently reached over 30k organic search clicks in the last month. The website is a service that scraps data from differnt websites, reformats it and displays it in a different way to the users.
 
-![](https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/images/projects/de-uglify-js-uglified-code/google-search-console-achievement.png)
+![](https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/images/projects/de-uglify-js-uglified-code/google-search-console-achievement.webp)
 
 In this article, I will talk about one of the challenges I faced when I built this website.
 
