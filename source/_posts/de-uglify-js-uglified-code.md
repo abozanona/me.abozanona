@@ -94,3 +94,11 @@ The second case involves the Cloudflare security check, which is considerably mo
 The challenge with Cloudflare is its ability to detect Puppeteer or any other browser controlled by automated testing software. To circumvent this issue, I had to take a different approach. I installed Gnome on my VPS, launched Firefox, and opened the page of the website I intended to scrape. To avoid triggering any automated detection mechanisms, I developed a firefox addon to periodically refresh this page every hour.
 
 In summary, the process of deuglifying JavaScript code reveals the dynamic nature of web development, where challenges spark innovation. From unraveling obfuscated code to circumventing security measures like Google Recaptcha and Cloudflare checks, each obstacle fuels our determination to find solutions. Through perseverance, trial and error, I unearth valuable insights and push the boundaries of what's possible in web scraping.
+
+------
+
+## Update 01/06/2024
+
+I'm spending more time working on SEO for the website now. I'm following some online strategies to increase the authority of the blog and the number of backlinks. As a result, the organic traffic keeps increasing over time 💪.
+
+![](https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/images/projects/de-uglify-js-uglified-code/google-search-console-achievement-2.webp)
