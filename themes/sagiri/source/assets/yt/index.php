@@ -1,23 +1,38 @@
 <?php
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+
 $id = $_GET['id'];
 
-$opts = [
-    "http" => [
-        "method" => "GET",
-        "header" => "Content-Type: application/x-www-form-urlencoded; charset=UTF-8\r\n" .
-            "Referer: https://en1.y2mate.is/\r\n"
-    ]
-];
-$context = stream_context_create($opts);
+// https://ezmp3.cc/
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, 'https://s66.ezmp3.cc/api/convert');
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, "{\"url\":\"https://www.youtube.com/watch?v=$id\",\"quality\":128,\"trim\":false,\"startT\":0,\"endT\":0}");
+$headers = array();
+$headers[] = 'Accept: */*';
+$headers[] = 'Accept-Language: en-US,en;q=0.9,ar;q=0.8,de;q=0.7';
+$headers[] = 'Connection: keep-alive';
+$headers[] = 'Content-Type: application/json';
+$headers[] = 'Origin: https://ezmp3.cc';
+$headers[] = 'Referer: https://ezmp3.cc/';
+$headers[] = 'Sec-Fetch-Dest: empty';
+$headers[] = 'Sec-Fetch-Mode: cors';
+$headers[] = 'Sec-Fetch-Site: same-site';
+$headers[] = 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
+$headers[] = 'Sec-Ch-Ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"';
+$headers[] = 'Sec-Ch-Ua-Mobile: ?0';
+$headers[] = 'Sec-Ch-Ua-Platform: \"macOS\"';
+curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
-$res = file_get_contents("https://srvcdn15.2convert.me/api/json?url=https://www.youtube.com/watch?v=$id", false, $context);
-$res = json_decode($res);
-$videos = $res->formats->video;
-foreach($videos as $video) {
-    if(!$video->needConvert) {
-        header('location:' . $video->url);
-        die('');
-    }
+$result = curl_exec($ch);
+if (curl_errno($ch)) {
+    echo 'Error:' . curl_error($ch);
 }
-$url = $res->formats->video[0]->url;
-header('location:' . $url);
+curl_close($ch);
+
+$res = json_decode($result);
+header('location:' . $res->url);
+die();
