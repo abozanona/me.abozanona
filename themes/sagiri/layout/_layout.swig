@@ -22,6 +22,7 @@
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}" class="theme-darling">
 
+  <canvas id="weather"></canvas>
   <div id="shell-panel" tabindex="0" class="ui-resizable">
     <div id="license-note">
       <code>GNU bash, version 5.0.17(1)-release (x86_64-pc-linux-gnu)<br/>

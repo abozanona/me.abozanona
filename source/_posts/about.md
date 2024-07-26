@@ -13,7 +13,7 @@ Hi, I'm Abozanona, a quiet person, listens to classical music, likes old songs, 
 | Statement I Like | Le vent se lève! … il faut tenter de vivre! |
 | Birthday | 12th September 1995 |
 | Characteristics | Busy, Slow to respond, Bad in memorization, Offline, Not using social websites |
-| Career | Struts2 & FullStack developer |
+| Career | FullStack developer |
 | Favorite Anime | Attack on Titan, duh (￣▽￣) |
 | Favorite Game | Dota2 |
 | Favorite Food | I eat everything ♨ |
