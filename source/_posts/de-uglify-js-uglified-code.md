@@ -101,4 +101,4 @@ In summary, the process of deuglifying JavaScript code reveals the dynamic natur
 
 I'm spending more time working on SEO for the website now. I'm following some online strategies to increase the authority of the blog and the number of backlinks. As a result, the organic traffic keeps increasing over time 💪.
 
-![](https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/images/projects/de-uglify-js-uglified-code/google-search-console-achievement-2.webp)
+![](https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/images/projects/de-uglify-js-uglified-code/google-search-console-achievement-v2.webp)
