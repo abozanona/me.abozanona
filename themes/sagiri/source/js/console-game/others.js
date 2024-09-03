@@ -316,6 +316,16 @@ var Josh = Josh || {};
             }
         });
 
+        _shell.setCommandHandler("exit", {
+            exec: function (cmd, args, callback) {
+                document.getElementById('shell-panel').style.display = 'none';
+                callback('');
+            },
+            completion: function (cmd, arg, line, callback) {
+                callback(shell.bestMatch(arg, ['']))
+            }
+        });
+
         return self;
     };
 })(this);
