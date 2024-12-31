@@ -27,43 +27,79 @@
                 minDist = 150,
                 x2 = flake.x,
                 y2 = flake.y;
+            var dist = Math.sqrt((x2 - x) * (x2 - x) + (y2 - y) * (y2 - y));
 
-            var dist = Math.sqrt((x2 - x) * (x2 - x) + (y2 - y) * (y2 - y)),
-                dx = x2 - x,
-                dy = y2 - y;
+            if (flake.type == 'rain') {
+                if (dist < minDist) {
+                    var force = minDist / (dist * dist),
+                        xcomp = (x - x2) / dist,
+                        ycomp = (y - y2) / dist,
+                        deltaV = force / 2;
 
-            if (dist < minDist) {
-                var force = minDist / (dist * dist),
-                    xcomp = (x - x2) / dist,
-                    ycomp = (y - y2) / dist,
-                    deltaV = force / 2;
+                    flake.velX -= deltaV * xcomp;
+                    flake.velY -= deltaV * ycomp;
+                } else {
+                    flake.velX = Math.random() * 2 - 1;
+                    flake.velY += 3;
 
-                flake.velX -= deltaV * xcomp;
-                flake.velY -= deltaV * ycomp;
-
-            } else {
-                flake.velX *= .98;
-                if (flake.velY <= flake.speed) {
-                    flake.velY = flake.speed
+                    if (flake.velY <= flake.speed) {
+                        flake.velY = flake.speed;
+                    }
                 }
-                flake.velX += Math.cos(flake.step += .05) * flake.stepSize;
+
+                ctx.strokeStyle = "rgba(169,169,169," + flake.opacity + ")";
+                ctx.lineWidth = 1;
+
+                flake.x += flake.velX;
+                flake.y += flake.velY;
+
+                if (flake.y >= canvas.height) {
+                    reset(flake);
+                }
+
+                if (flake.x >= canvas.width || flake.x <= 0) {
+                    reset(flake);
+                }
+
+                ctx.beginPath();
+                ctx.moveTo(flake.x, flake.y);
+                ctx.lineTo(flake.x - flake.velX * 2, flake.y - flake.velY * 2);
+                ctx.stroke();
+            } else {
+                if (dist < minDist) {
+                    var force = minDist / (dist * dist),
+                        xcomp = (x - x2) / dist,
+                        ycomp = (y - y2) / dist,
+                        deltaV = force / 2;
+
+                    flake.velX -= deltaV * xcomp;
+                    flake.velY -= deltaV * ycomp;
+
+                } else {
+                    flake.velX *= .98;
+                    if (flake.velY <= flake.speed) {
+                        flake.velY = flake.speed
+                    }
+                    flake.velX += Math.cos(flake.step += .05) * flake.stepSize;
+                }
+
+                ctx.fillStyle = "rgba(255,255,255," + flake.opacity + ")";
+                flake.y += flake.velY;
+                flake.x += flake.velX;
+
+                if (flake.y >= canvas.height || flake.y <= 0) {
+                    reset(flake);
+                }
+
+                if (flake.x >= canvas.width || flake.x <= 0) {
+                    reset(flake);
+                }
+
+                ctx.beginPath();
+                ctx.arc(flake.x, flake.y, flake.size, 0, Math.PI * 2);
+                ctx.fill();
             }
 
-            ctx.fillStyle = "rgba(255,255,255," + flake.opacity + ")";
-            flake.y += flake.velY;
-            flake.x += flake.velX;
-
-            if (flake.y >= canvas.height || flake.y <= 0) {
-                reset(flake);
-            }
-
-            if (flake.x >= canvas.width || flake.x <= 0) {
-                reset(flake);
-            }
-
-            ctx.beginPath();
-            ctx.arc(flake.x, flake.y, flake.size, 0, Math.PI * 2);
-            ctx.fill();
         }
         requestAnimationFrame(snow);
     };
@@ -78,7 +114,7 @@
         flake.opacity = (Math.random() * 0.5) + 0.3;
     }
 
-    function init() {
+    function init(type) {
         for (var i = 0; i < flakeCount; i++) {
             var x = Math.floor(Math.random() * canvas.width),
                 y = Math.floor(Math.random() * canvas.height),
@@ -96,7 +132,8 @@
                 stepSize: (Math.random()) / 30 * 1,
                 step: 0,
                 angle: 180,
-                opacity: opacity
+                opacity: opacity,
+                type: type,
             });
         }
 
@@ -115,10 +152,13 @@
         .then(res => res.json())
         .then(res => {
             // https://openweathermap.org/weather-conditions
-            if ((res?.weather[0]?.id ?? 9999) < 700) {
-                init();
+            const weatherCode = res?.weather[0]?.id ?? 9999
+            if (weatherCode < 600) {
+                init('rain');
+            } else if (weatherCode < 700) {
+                init('snow');
             }
-            if(res?.weather[0]?.description) {
+            if (res?.weather[0]?.description) {
                 console.log("Weather is " + res?.weather[0]?.description);
             }
         })

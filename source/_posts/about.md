@@ -42,30 +42,27 @@ Hi, I'm Abozanona, a quiet person, listens to classical music, likes old songs, 
 
 <div class="work">
     <div class="work-title">
-        Unstagram
-        <a href="https://chrome.google.com/webstore/detail/unstagram-instagram-messe/mfoefahdnhpopjcdmkpkncedcamplcei"><i class="fas fa-link"></i></a>
-        <a href="https://github.com/abozanona/Unstagram"><i class="fab fa-github"></i></a>
+        Luca
+        <a href="https://github.com/abozanona/luca"><i class="fab fa-github"></i></a>
     </div>
-    <div class="work-desc">Using Unstagram, you can read other’s messages on Instagram and they won’t know that.</div>
+    <div class="work-desc">Luca is a chrome extension to watch movies together! With Luca you can start movie parties with friends using any Video on any website online</div>
 </div>
 <div class="work">
     <div class="work-title">
         Darcom
-        <a href="https://darcom.ps/"><i class="fas fa-link"></i></a>
+        <a href="https://play.google.com/store/apps/details?id=com.darcom.darcom/"><i class="fas fa-link"></i></a>
     </div>
     <div class="work-desc">Darcom is a commercial advertising guide app.</div>
 </div>
 <div class="work">
     <div class="work-title">
         Nitro
-        <a href="https://nitro.co.com/"><i class="fas fa-link"></i></a>
     </div>
     <div class="work-desc">Nitro is an android application for advertising in taxis.</div>
 </div>
 <div class="work">
     <div class="work-title">
         Tmasraf
-        <a href="https://nitro.co.com/"><i class="fas fa-link"></i></a>
     </div>
     <div class="work-desc">Tmasraf is a cashback mobile app where customers get points from shopping.</div>
 </div>
