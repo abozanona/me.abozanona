@@ -62,7 +62,7 @@ initializeGameCanvas();
 
 And this is how SVG export looks like:
 
-![](https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/images/projects/pacman/pacman.svg)
+![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/images/projects/pacman/pacman.svg)
 
 ---
 

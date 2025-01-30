@@ -60,9 +60,9 @@
 <div class="site-brand-wrapper">
   <div class="site-brand-bg">
     <picture>
-      <source srcset="https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/images/header-weathering-with-you.webp" type="image/webp" media="(max-width: 500px)">
-      <source srcset="https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/images/header-weathering-with-you.png" type="image/png" media="(max-width: 500px)">
-      <img loading="lazy" src="https://cdn.jsdelivr.net/gh/abozanona/abozanona.me/images/header-weathering-with-you.png">
+      <source srcset="https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/images/header-weathering-with-you.webp" type="image/webp" media="(max-width: 500px)">
+      <source srcset="https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/images/header-weathering-with-you.png" type="image/png" media="(max-width: 500px)">
+      <img loading="lazy" src="https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/images/header-weathering-with-you.png">
     </picture>
   </div>
   <div class="site-meta {% if theme.custom_logo.enabled %}custom-logo{% endif %}">
