@@ -76,7 +76,7 @@
 
     {% if not theme.sidebar.b2t %}
       <div class="back-to-top">
-        <img src="https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/images/scroll.png">
+        <img src="https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/scroll.png">
         {% if theme.sidebar.scrollpercent %}
           <span id="scrollpercent"><span>0</span>%</span>
         {% endif %}

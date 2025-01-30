@@ -6,7 +6,7 @@ categories: project
 
 One of the projects I'm working on has recently reached over 30k organic search clicks in the last month. The website is a service that scraps data from differnt websites, reformats it and displays it in a different way to the users.
 
-![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/images/projects/de-uglify-js-uglified-code/google-search-console-achievement.webp)
+![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/de-uglify-js-uglified-code/google-search-console-achievement.webp)
 
 In this article, I will talk about one of the challenges I faced when I built this website.
 
@@ -101,4 +101,4 @@ In summary, the process of deuglifying JavaScript code reveals the dynamic natur
 
 I'm spending more time working on SEO for the website now. I'm following some online strategies to increase the authority of the blog and the number of backlinks. As a result, the organic traffic keeps increasing over time 💪.
 
-![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/images/projects/de-uglify-js-uglified-code/google-search-console-achievement-v2.webp)
+![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/de-uglify-js-uglified-code/google-search-console-achievement-v2.webp)

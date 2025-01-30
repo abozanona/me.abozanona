@@ -26,7 +26,7 @@ After few weeks, I found my cat's kitten inside the guest's room; She has sneake
 
 I've learned a lot about cats with my cat and her four kittens. I remember one day she was sitting on the couch in the guest's room watching me playing with her children, and she suddenly walked towards me and started licking me. I found out at that time how much does she love me. I've also learned some tricks of how I can limp and relax her kittens while I'm holding them and prevent them from struggling me, however that trick didn't always work, and they scratch my hand sometimes.
 
-![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/images/projects/my-cat/my-cat.png)
+![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/my-cat/my-cat.png)
 
 Sadly, all of the four kittens have died 😞. It was a very stupid idea of me to allow my cat to keep her kittens around my house. All of the four kittens died because of that decision. Two of the kittens have died while my nephews were playing with them. When I arrived home that night, I was told that two of the kittens had died, and that my nephew feels sad and regrets that. He promised me that from now on he will never allow anyone from his friends to play with the other two kittens and that he will be nice with them. The other two kittens have died a couple of months later 😞. I feel very sorry for my cat 😞 She's the saddest cat I have ever seen.
 

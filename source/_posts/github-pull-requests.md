@@ -34,15 +34,15 @@ I also needed to add more functionalities to the story widget, including adding 
 
 I've made some modifications to the library to produce this new story view.
 
-![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/images/projects/github-pull-requests/story-view-1.png)
+![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/github-pull-requests/story-view-1.png)
 
-![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/images/projects/github-pull-requests/story-view-2.png)
+![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/github-pull-requests/story-view-2.png)
 
-![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/images/projects/github-pull-requests/story-view-3.png)
+![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/github-pull-requests/story-view-3.png)
 
-![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/images/projects/github-pull-requests/story-view-4.png)
+![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/github-pull-requests/story-view-4.png)
 
-![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/images/projects/github-pull-requests/story-view-5.png)
+![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/github-pull-requests/story-view-5.png)
 
 ## Admob Flutter. <a href="https://github.com/kmcgill88/admob_flutter/pull/150"><i class="fab fa-github"></i></a>
 

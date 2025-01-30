@@ -60,10 +60,6 @@ const initializeGameCanvas = () =>
 initializeGameCanvas();
 </script>
 
-And this is how SVG export looks like:
-
-![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/images/projects/pacman/pacman.svg)
-
 ---
 
 ## What’s Next?
@@ -72,7 +68,7 @@ Of course, the project isn’t perfect (yet). Here are a few things I’m workin
 
 - **Smarter movement algorithms**: Currently, the sprites use basic algorithms. I want them to behave more like the real Pac-Man game.  
 - **Better sprite design**: Pac-Man’s mouth animation, ghost shapes, and collision effects could all use some love.  
-- **Fixing SVG issues**: The exported SVG occasionally has glitches with sprite movement and design that need smoothing out. And Pac-Man never goes out of power-up mode.
+- **Fixing SVG issues**: The exported SVG occasionally has glitches with sprite movement and design that need smoothing out. And Pac-Man never goes out of power-up mode; this results in a huge svg file size.
 
 I’m also planning to add some exciting new features, like the ability to integrate the game directly into your GitHub profile — similar to how the snk game works.  
 

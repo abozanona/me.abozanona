@@ -99,13 +99,6 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: sagiri
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: git@github.com:abozanona/abozanona.me.git
-  branch: master
-
 search:
   path: search.xml
   field: post

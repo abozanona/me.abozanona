@@ -22,4 +22,4 @@ Big thanks to [Sasini](https://io.hsoub.com/u/sasini) for his design for the Hso
 
 I received a message from Hsoub asking to remove the test app I published on Google play, so I will stop working on the app.
 
-![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/images/projects/hsoub/hsoub.png)
+![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/hsoub/hsoub.png)
