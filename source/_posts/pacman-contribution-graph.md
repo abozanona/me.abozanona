@@ -37,27 +37,30 @@ There are **two export options** for the game:
 
 You can try the game for yourself right now: [Pac-Man Contribution Game Demo](https://abozanona.github.io/pacman-contribution-graph/).  
 
-This is how canvas export looks like:
+You can also see how it looks like on Github profiles live on [@abozanona](https://github.com/abozanona).
+
+This is how canvas export for my gitlab account looks like:
 
 <canvas id="pacmancanvas" style="max-width:100%"></canvas>
 <script type="module">
-import { renderContributions } from 'https://cdn.jsdelivr.net/gh/abozanona/pacman-contribution-graph@1.0.1/dist/pacman-contribution-graph.min.js';
+import { PacmanRenderer } from 'https://cdn.jsdelivr.net/npm/pacman-contribution-graph/dist/pacman-contribution-graph.min.js';
 const canvas = document.getElementById('pacmancanvas');
-const initializeGameCanvas = () =>
-    renderContributions({
-        platform: "gitlab",
-        username: "abozanona",
-        canvas: canvas,
-        output: 'canvas',
-        gameOverCallback: () => {
-            console.log('GAME OVER');
-            setTimeout(() => {
-                console.log('Restarting');
-                initializeGameCanvas();
-            }, 3000);
-        }
-    });
-initializeGameCanvas();
+const pr = new PacmanRenderer({
+    platform: "gitlab",
+    gameTheme: "gitlab",
+    username: "abozanona",
+    canvas: canvas,
+    outputFormat: 'canvas',
+    gameOverCallback: () => {
+        console.log('GAME OVER');
+        setTimeout(() => {
+            console.log('Restarting');
+            pr.start();
+        }, 3000);
+    },
+    enableSounds: false
+});
+pr.start();
 </script>
 
 ---

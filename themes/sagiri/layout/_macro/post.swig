@@ -237,7 +237,7 @@
 
     {% if not is_home() %}
     <script src="https://utteranc.es/client.js"
-        repo="abozanona/abozanona.me"
+        repo="abozanona/me.abozanona"
         issue-term="pathname"
         label="site comment"
         theme="github-light"

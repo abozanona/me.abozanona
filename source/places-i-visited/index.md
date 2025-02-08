@@ -135,7 +135,7 @@ loadScript('https://unpkg.com/leaflet@1.9.4/dist/leaflet.js', function() {
                 "34.2674994",
                 "35.8950234",
             ],
-            displayName: "Palestinian Territory",
+            displayName: "Palestine",
             },
         ],
         JO: [
