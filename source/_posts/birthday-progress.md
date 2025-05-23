@@ -91,7 +91,3 @@ I stopped working on Luca after the relocation, and everytime I was going to bac
 Luca is the project that will make me become a millionaire. I should stop waisting my time and continue working on it 🤦. One of my next goals for the next year should be continue working on Luca. There are some features that should be added to the UI, the server needs to be more stable, and I need to start working on the mobile app.
 
 [Click me if you're interested in the Luca project](javascript:lucaTreasureHunt()).
-
-## freiheit.com
-
-Joining freiheit.com is my biggest achievement for the last year. You can [read more about my experience @ freiheit.com here](/freiheit-com)
