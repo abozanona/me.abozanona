@@ -16,7 +16,7 @@ categories: diary
 <div id="stories" class="storiesWrapper"></div>
 
 <script>
-    getAvatar = (id) => "https://api.multiavatar.com/avatar-" + id + ".png"
+    getAvatar = (id) => "https://robohash.org/" + id
     var currentSkin = {
       avatars: true,
       list: false,
@@ -31,7 +31,7 @@ categories: diary
     document.body.appendChild(zuckScript); 
     
     zuckScript.addEventListener('load', () => {
-        fetch("/assets/stories.json").then(res => res.json()).then(res => {
+        fetch("/assets/stories.json?v=2").then(res => res.json()).then(res => {
             let storiesList = [];
             for(el of res) {
                 if(el.count) {
