@@ -70,6 +70,7 @@ menu:
 
 submenu:
   workshop:
+    Pac-Man: /pacman-contribution-graph
     Tmasraf: /tmasraf
     Darcom: /darcom
     Nitro: /nitro

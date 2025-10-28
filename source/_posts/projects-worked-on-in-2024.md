@@ -12,6 +12,8 @@ This past year has been quite active and fun to me as I took part in quite a num
 
 Among my first undertakings was a project for a tiny bakery in Norway. They were looking for a simple, but appealing landing page where customers can place orders for the mouthwatering desserts. This project’s highlight was the development of a custom cake design wizard. The customers were free to choose the flavor of the cake, its design and enter the text as a cake top message. It was quite an enjoyable task to create something like this and to see how people could realize their cake dreams in a few instances.
 
+![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/projects-worked-on-in-2024/kakehuset.webp)
+
 ## Building a Blogging Platform in Palestine
 
 Next was a blogging application for a client from Palestine. The principle was to build a platform allowing many users to register, post blogs, and subsequently interact with other users. There was also a need for a comprehensive control panel so that the client could keep track of and control every component of the system.

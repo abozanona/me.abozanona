@@ -56,10 +56,10 @@ loadScript('https://unpkg.com/leaflet@1.9.4/dist/leaflet.js', function() {
             const response = await fetch(url);
             const data = await response.json();
             if (data.length > 0) {
-            return data[0];
+                return data[0];
             } else {
-            console.error("Error fetching place data", url);
-            return null;
+                console.error("Error fetching place data", url);
+                return null;
             }
         } catch (error) {
             console.error("Error fetching place data", error);
@@ -274,6 +274,66 @@ loadScript('https://unpkg.com/leaflet@1.9.4/dist/leaflet.js', function() {
             coordinates: ["50.0889704", "50.1145185", "8.6167326", "8.6666439"],
             displayName:
                 "60327, Gutleutviertel, Innenstadt 1, Frankfurt, Hesse, Germany",
+            },
+            {
+            code: "64342",
+            coordinates: ["49.7243241", "49.7976977", "8.6182484", "8.7054770"],
+            displayName:
+                "64342, Seeheim, Seeheim-Jugenheim, Landkreis Darmstadt-Dieburg, Hesse, Germany",
+            },
+            {
+            code: "64283",
+            coordinates: ["49.8638818", "49.8763837", "8.6396164", "8.6638332"],
+            displayName:
+                "64283, Darmstadt-Mitte, Darmstadt, Hesse, Germany",
+            },
+            {
+            code: "10117",
+            coordinates: ["52.5069995", "52.5281501", "13.3710363", "13.4057347"],
+            displayName:
+                "10117, Mitte, Berlin, Germany",
+            },
+            {
+            code: "10243",
+            coordinates: ["52.5011004", "52.5227218", "13.4227803", "13.4551222"],
+            displayName:
+                "10243, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, Germany",
+            },
+            {
+            code: "24937",
+            coordinates: ["54.7694754", "54.8074966", "9.4043887", "9.4541265"],
+            displayName:
+                "24937, Stadtpark, Westliche Höhe, Flensburg, Schleswig-Holstein, Germany",
+            },
+            {
+            code: "24159",
+            coordinates: ["54.3632936", "54.4329395", "10.1027922", "10.1939077"],
+            displayName:
+                "24159, Pries, Dorf Pries, Kiel, Schleswig-Holstein, Germany",
+            },
+            {
+            code: "21335",
+            coordinates: ["53.1916432", "53.2544178", "10.3440680", "10.4229746"],
+            displayName:
+                "21335, Oedeme, Lüneburg, Lower Saxony, Germany",
+            },
+            {
+            code: "19061",
+            coordinates: ["53.5443597", "53.6286038", "11.3561611", "11.4836940"],
+            displayName:
+                "19061, Krebsförden, Schwerin, Mecklenburg-Vorpommern, Germany",
+            },
+        ],
+        DK: [
+            {
+            code: "6330",
+            coordinates: ["54.7865595", "54.8865595", "9.3038490", "9.4038490"],
+            displayName: "6330, Aabenraa Municipality, Region of Southern Denmark, Denmark",
+            },
+            {
+            code: "6330",
+            coordinates: ["54.7865595", "54.8865595", "9.3038490", "9.4038490"],
+            displayName: "6330, Aabenraa Municipality, Region of Southern Denmark, Denmark",
             },
         ],
         ES: [
@@ -521,6 +581,28 @@ loadScript('https://unpkg.com/leaflet@1.9.4/dist/leaflet.js', function() {
                 "-9.1411919",
             ],
             displayName: "1200-016, Misericórdia, Lisbon, Portugal",
+            },
+        ],
+        ID: [
+            {
+            code: "12120",
+            coordinates: ["-6.2897231", "-6.1897231", "106.7418137", "106.8418137"],
+            displayName: "12120, Kebayoran Baru, South Jakarta, Special capital Region of Jakarta, Java, Indonesia",
+            },
+            {
+            code: "11470",
+            coordinates: ["-6.2225360", "-6.1225360", "106.7330536", "106.8330536"],
+            displayName: "11470, Grogol Petamburan, West Jakarta, Special capital Region of Jakarta, Java, Indonesia",
+            },
+            {
+            code: "10350",
+            coordinates: ["-6.2971391", "-6.1971391", "106.9720063", "107.0720063"],
+            displayName: "10350, Bekasi, West Java, Java, Indonesia",
+            },
+            {
+            code: "10710",
+            coordinates: ["-6.2467289", "-6.1467289", "106.8489680", "106.9489680"],
+            displayName: "10710, Pulo Gadung, East Jakarta, Special capital Region of Jakarta, Java, Indonesia",
             },
         ],
     };

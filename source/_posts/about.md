@@ -42,6 +42,13 @@ Hi, I'm Abozanona, a quiet person, listens to classical music, likes old songs, 
 
 <div class="work">
     <div class="work-title">
+        Pac-Man Contribution Graph Game
+        <a href="https://github.com/abozanona/pacman-contribution-graph"><i class="fab fa-github"></i></a>
+    </div>
+    <div class="work-desc">Transform your GitHub or GitLab contribution graph into an interactive Pac-Man game! This JavaScript library offers a unique and engaging way to visualize your coding activity over the past year.</div>
+</div>
+<div class="work">
+    <div class="work-title">
         Luca
         <a href="https://github.com/abozanona/luca"><i class="fab fa-github"></i></a>
     </div>
