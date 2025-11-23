@@ -14,7 +14,7 @@ Since the start of the war on Gaza, I have participated in many protests in Hamb
 
 <a href="https://www.youtube.com/watch?v=tHCLuACxZqg&list=PLb9WCziei3SRXp6x4kGS06AQC6MjwwVBD&index=1" target="__blank">
 <div class="image-container">
-<img class="no-fancybox" loading="lazy" src="https://i.ytimg.com/vi/tHCLuACxZqg/hqdefault.jpg"/>
+<img class="no-popup-img" loading="lazy" src="https://i.ytimg.com/vi/tHCLuACxZqg/hqdefault.jpg"/>
 </div>
 </a>
 <style>

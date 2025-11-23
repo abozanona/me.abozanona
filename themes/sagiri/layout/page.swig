@@ -56,7 +56,7 @@
                 <li>
                 {% set linkInfo = link.split('||') %}
                   <a href="{{ linkInfo[0] }}" title="{{ name }}" target="_blank">
-                    <img class="no-fancybox" src="{{ linkInfo[1] }}">
+                    <img class="no-popup-img" src="{{ linkInfo[1] }}">
                     <h4>{{ name }}</h4>
                     <p>{{ linkInfo[2] }}</p>
                   </a>

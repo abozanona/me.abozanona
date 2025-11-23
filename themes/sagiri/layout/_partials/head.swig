@@ -56,14 +56,6 @@
 {% endif %}
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-{% if theme.fancybox %}
-  {% set fancybox_css_uri = url_for(theme.vendors._internal + '/fancybox/source/jquery.fancybox.css?v=2.1.5') %}
-  {% if theme.vendors.fancybox_css %}
-    {% set fancybox_css_uri = theme.vendors.fancybox_css %}
-  {% endif %}
-  <link href="{{ fancybox_css_uri }}" rel="stylesheet" type="text/css" />
-{% endif %}
-
 {% include "./head/external-fonts.swig" %}
 
 {% set font_awesome_uri = url_for(theme.vendors._internal + '/font-awesome/css/font-awesome.min.css?v=4.7.0') %}
@@ -118,7 +110,6 @@
     scheme: '{{ theme.scheme }}',
     version: '{{ theme.version }}',
     sidebar: {{ theme.sidebar | json_encode }},
-    fancybox: {{ theme.fancybox }},
     tabs: {{ theme.tabs.enable }},
     motion: {{ theme.motion | json_encode }},
     since: '{{ theme.footer.since }}',

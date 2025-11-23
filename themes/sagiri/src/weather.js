@@ -159,7 +159,7 @@
                 init('snow');
             }
             if (res?.weather[0]?.description) {
-                console.log("Weather is " + res?.weather[0]?.description);
+                console.log("Weather in Hamburg is " + res?.weather[0]?.description);
             }
         })
 })();

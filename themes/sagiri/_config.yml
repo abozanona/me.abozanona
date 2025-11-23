@@ -544,9 +544,6 @@ motion:
     # Only for Pisces | Gemini.
     sidebar: slideUpIn
 
-# Fancybox
-fancybox: false
-
 # Progress bar in the top during page loading.
 pace: false
 # Themes list:
@@ -602,11 +599,6 @@ vendors:
 
   # Internal version: 2.1.3
   jquery: https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js
-
-  # Internal version: 2.1.5
-  # See: http://fancyapps.com/fancybox/
-  fancybox: https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js
-  fancybox_css: https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css
 
   # Internal version: 1.0.6
   # See: https://github.com/ftlabs/fastclick
