@@ -101,3 +101,24 @@ If you’re running a Flutter web app in Chrome during development and want to a
 ```
 
 That’s it. Clean, simple, and you still get the debugger attached automatically.
+
+---
+
+## Update: The Native Solution (Flutter 3.38+)
+
+Starting with Flutter 3.38, there is a much cleaner, native way to handle this that doesn't rely on VS Code specific settings. You can now use a configuration file named `web_dev_config.yaml` in the root of your project. This allows you to define persistent server settings that work regardless of whether you are running from the terminal, VS Code, or Android Studio.
+
+Here is how to set it up:
+
+- Create a file named web_dev_config.yaml in your project root.
+-  Add the following content:
+```yaml
+server:
+  host: "0.0.0.0" # Optional
+  port: 51996     # Your fixed port
+```
+This method is superior because it also allows you to configure advanced features like HTTPS certificates, custom response headers, and URL rewrites (proxies), which can help you solve CORS issues without even needing a fixed port in some cases.
+
+Check out the breakdown of these new features in this video:
+
+<iframe height="300" src="https://www.youtube.com/embed/-AuAZTyRelY" style="width:100%;"></iframe>
