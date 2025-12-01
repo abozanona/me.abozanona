@@ -124,9 +124,7 @@ links_layout: block
 #links_layout: inline
 
 # Sidebar Avatar
-# in theme directory(source/images): /images/avatar.gif
-# in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /images/weathering-with-you-hodaka.png
+avatar: /images/weathering-with-you-hodaka.webp
 
 # Table Of Contents in the Sidebar
 toc:
@@ -677,7 +675,7 @@ js: js
 images: images
 
 card:
-  avatar: /images/your-lie-in-april-cat.gif
+  avatar: /images/levi-erwin-aot.webp
   name: <span style="opacity:.9;">Lead those New recruits into hell.</span>
   description: My Soldiers, Scream!
   items:

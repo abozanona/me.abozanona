@@ -8,6 +8,27 @@ categories: diary
 
 <!--more-->
 
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.js"></script>
+<div id="player-al-taghriba" class="aplayer"></div>
+
+<script>
+const ap3 = new APlayer({
+    element: document.getElementById('player-al-taghriba'),
+    mini: false,
+    autoplay: false,
+    lrcType: 3,
+    mutex: true,
+    audio: [{
+        name: 'The Palestinian Exodus',
+        artist: 'Opening credits',
+        url: '/images/projects/al-taghriba-al-filistinia/al-taghriba-ost.mp3',
+        cover: '/images/projects/al-taghriba-al-filistinia/movie-poster.webp',
+        lrc: '/images/projects/al-taghriba-al-filistinia/al-taghriba-ost.lrc',
+        theme: '#ebd0c2'
+    }]
+});
+</script>
+
 The series follows the story of a Palestinian family from a village in Palestine, as they experience the horrors of 1948, the events of Nakba, and the political struggles that led to the destruction of their community and homeland. The story masterfully intertwines the personal lives of the characters with the broader political upheaval of the time, showing the devastating impact of colonialism, foreign occupation, and the subsequent refugee crisis that still affects millions of Palestinians today.
 
 <a href="https://www.imdb.com/title/tt3109682/" target="_blank">

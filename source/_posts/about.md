@@ -6,6 +6,8 @@ type: "about"
 
 Hi, I'm Abozanona, a quiet person, listens to classical music, likes old songs, and addicted to Dota2.
 
+<!--more-->
+
 ## Components
 | element | feature |
 | ----| ---- |
@@ -84,6 +86,7 @@ Hi, I'm Abozanona, a quiet person, listens to classical music, likes old songs, 
 - [Buy me coffee ☕](https://www.buymeacoffee.com/abozanona)
 - Direct messaging? ¯\\_(ツ)_/¯
 
+<img class="no-popup-img site-author-image" style="cursor: help" itemprop="image" onclick="lucaTreasureHunt()" src="/images/your-lie-in-april-cat.gif" alt="Luca Tresure Hunt" />
 
 {% raw %}
 <style>
