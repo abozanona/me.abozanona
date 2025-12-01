@@ -6,9 +6,9 @@ categories: diary
 
 **Al-Taghriba Al-Filistinia** (*The Palestinian Exodus*) is one of the most powerful and poignant TV series ever created to document the Palestinian Nakba (Catastrophe) of 1948. The series tells the tragic story of the mass displacement of Palestinians during the establishment of the State of Israel, and it deeply delves into the conflicts with British forces, Jewish militias, and the Palestinian resistance movements during that period. Released in 2004, this historical drama has become a monumental piece of art that accurately portrays the pain, resistance, and displacement of the Palestinian people.
 
-The series follows the story of a Palestinian family from a village in Palestine, as they experience the horrors of 1948, the events of Nakba, and the political struggles that led to the destruction of their community and homeland. The story masterfully intertwines the personal lives of the characters with the broader political upheaval of the time, showing the devastating impact of colonialism, foreign occupation, and the subsequent refugee crisis that still affects millions of Palestinians today.
-
 <!--more-->
+
+The series follows the story of a Palestinian family from a village in Palestine, as they experience the horrors of 1948, the events of Nakba, and the political struggles that led to the destruction of their community and homeland. The story masterfully intertwines the personal lives of the characters with the broader political upheaval of the time, showing the devastating impact of colonialism, foreign occupation, and the subsequent refugee crisis that still affects millions of Palestinians today.
 
 <a href="https://www.imdb.com/title/tt3109682/" target="_blank">
     <img class="no-popup-img" loading="lazy" src="/images/projects/al-taghriba-al-filistinia/al-taghriba-al-filistinia-imdb.webp"/>
