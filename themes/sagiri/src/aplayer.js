@@ -8,7 +8,7 @@ if (!NexT.utils.isMobile()) {
       fixed: true,
     });
     $.ajax({
-      url: 'https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/assets/playlest.json?v=0.0.81', //TODO: Read from theme settings
+      url: '/assets/playlest.json?v=0.0.81', //TODO: Read from theme settings
       success: function (list) {
         apFixed.list.add(list);
       }

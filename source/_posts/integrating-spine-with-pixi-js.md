@@ -10,7 +10,7 @@ Spine 2D, a powerful tool for creating captivating animations, offers immense po
 
 During the development of Petmety, I encountered a perplexing issue while attempting to render Spine animations using the default [JavaScript web player](https://en.esotericsoftware.com/spine-player) provided by Spine. Instead of fluid movements, certain animations, like a character jump, exhibited unexpected behavior. Rather than smoothly moving up and down, the sprite would distort, scaling down before performing the action and then returning to its original size.
 
-![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/integrating-spine-with-pixi-js/petmety-before.gif)
+![](/images/projects/integrating-spine-with-pixi-js/petmety-before.gif)
 
 I delved into potential solutions, turning to Spine's documentation for guidance. There, I discovered references to external libraries that promised to address rendering issues. My research led me to explore various JavaScript libraries compatible with Spine animations. Among them, [PIXI.js](https://pixijs.com/) emerged as the standout choice. Renowned for its versatility and active development community, PIXI.js seemed tailor-made for the task.
 
@@ -24,7 +24,7 @@ After meticulously integrating packages, code, and assets while adhering to Mani
 
 Through diligent research, I uncovered the solution—a crucial adjustment to the project's TypeScript configuration, compiling using ES6 modules. This is how the animation looks like after the fix.
 
-![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/integrating-spine-with-pixi-js/petmety-after.gif)
+![](/images/projects/integrating-spine-with-pixi-js/petmety-after.gif)
 
 In my endeavor to render Spine 2D animations within web environments, the development journey with Petmety has been characterized by a series of formidable challenges and notable achievements. From confronting perplexing rendering anomalies to navigating intricate disparities among PIXI.js versions and adhering to stringent manifest specifications, each hurdle has served as a crucible for personal and professional growth.
 

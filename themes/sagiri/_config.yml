@@ -20,8 +20,8 @@ override: false
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
   visibilitychange: true
-  narmal: https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/favicon.ico
-  hidden: https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/failure.ico
+  narmal: /images/favicon.ico
+  hidden: /images/failure.ico
   show_text: (/≧▽≦/)It works now！
   hide_text: (●—●)It collapsed！
 
@@ -126,7 +126,7 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/weathering-with-you-hodaka.png
+avatar: /images/weathering-with-you-hodaka.png
 
 # Table Of Contents in the Sidebar
 toc:
@@ -677,7 +677,7 @@ js: js
 images: images
 
 card:
-  avatar: https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/your-lie-in-april-cat.gif
+  avatar: /images/your-lie-in-april-cat.gif
   name: <span style="opacity:.9;">Lead those New recruits into hell.</span>
   description: My Soldiers, Scream!
   items:

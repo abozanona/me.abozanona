@@ -11,7 +11,7 @@ The series follows the story of a Palestinian family from a village in Palestine
 <!--more-->
 
 <a href="https://www.imdb.com/title/tt3109682/" target="_blank">
-    <img class="no-popup-img" loading="lazy" src="https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/al-taghriba-al-filistinia/al-taghriba-al-filistinia-imdb.webp"/>
+    <img class="no-popup-img" loading="lazy" src="/images/projects/al-taghriba-al-filistinia/al-taghriba-al-filistinia-imdb.webp"/>
 </a>
 
 At its core, *Al-Taghriba Al-Filistinia* focuses on the journey of one Palestinian family, specifically the hardships they face as they try to survive the chaos of war and escape from their burning village. The protagonist, Hassan, and his family are forced to flee their home and begin a dangerous journey across Palestine, facing not only military forces but also betrayal and violence from various factions. The story highlights the struggle of Palestinians during the late 1940s and shows the diverse range of experiences, from those who resisted the British and Zionist gangs, to those who were forced to take refuge in neighboring Arab countries.
@@ -20,7 +20,7 @@ This series brings to life the tension between the various factions in Palestine
 
 As a Palestinian, the events depicted in *Al-Taghriba Al-Filistinia* resonate deeply with me. My grandfather and his family were displaced from their own village, **The Gerat Almasmiyah** (*AlMasmiyeh Alkabeereh*), which was located in the southern region of Palestine. Much like the characters in the series, they were victims of the same brutal events that tore Palestine apart during the Nakba. Watching the series takes me back to my own family's history, and I can’t help but feel a deep connection to the struggle that continues to this day.
 
-![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/al-taghriba-al-filistinia/refugees-in-galilee.webp)
+![](/images/projects/al-taghriba-al-filistinia/refugees-in-galilee.webp)
 
 What makes *Al-Taghriba Al-Filistinia* even more significant to me is the work of a dedicated Palestinian mother, Alaa Radwan, who started translating the series into English recently. Alaa, originally displaced from Gaza, now lives in Cairo, but her heart remains deeply rooted in her Palestinian identity and heritage. Through her Patreon project, Alaa has taken it upon herself to translate the entire series (31 episodes in total) to ensure that people around the world, especially non-Arabic speakers, can learn about the Palestinian experience.
 
@@ -32,9 +32,11 @@ By supporting Alaa on Patreon, you’re not just watching a series, you’re sup
 
 So, take the time to support Alaa Radwan’s incredible project on Patreon and witness the story of Palestine like never before. We owe it to ourselves, our ancestors, and our future generations to ensure that these stories are told and shared with the world.
 
+**[Click here to watch Al-Taghriba Al-Filistinia on Alaa's Patreon!](https://www.patreon.com/c/Taghriba_Filistinia)**
+
 <a href="https://www.patreon.com/c/Taghriba_Filistinia/" target="__blank">
 <div class="image-container">
-<img class="no-popup-img" loading="lazy" src="https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/al-taghriba-al-filistinia/movie-poster.webp"/>
+<img class="no-popup-img" loading="lazy" src="/images/projects/al-taghriba-al-filistinia/movie-poster.webp"/>
 </div>
 </a>
 <style>
@@ -54,5 +56,3 @@ So, take the time to support Alaa Radwan’s incredible project on Patreon and w
   border-color: transparent transparent transparent #000000;
 }
 </style>
-
-**[Click here to watch Al-Taghriba Al-Filistinia on Alaa's Patreon!](https://www.patreon.com/c/Taghriba_Filistinia)**

@@ -28,11 +28,11 @@ Unfortunately, due to been busy with the relocation and the new job that I had, 
 
 I managed however to work on one personal project in the last 8 months; it's a service I build and deployed online, and it's currently accessed more than 6,000 times monthly based on Google Search console statistics.
 
-![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/birthday-progress/personal-website-analytics.webp)
+![](/images/projects/birthday-progress/personal-website-analytics.webp)
 
 The service is not only gaining more users every month, but also gaining more money too 💰. It's a mini service and I don't think it will earn a lot of money in the future, but it's very nice the idea that you've came up with an idea and to see other people using it and to see it giving you some revenue 😎.
 
-![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/birthday-progress/personal-website-adsense.webp)
+![](/images/projects/birthday-progress/personal-website-adsense.webp)
 
 I'm getting more busy with work and other life aspects recently, but nevertheless I should focus more on this project and spend more time on it.
 
@@ -45,7 +45,7 @@ One of the things I focused on in the last 8 months is playing with heroes that 
 
 Randomly picking heroes is a good idea to learn how play with other heroes, but it's also one of the reasons why I lose MMR in my ranked games 😂.
 
-![](https://cdn.jsdelivr.net/gh/abozanona/me.abozanona/themes/sagiri/source/images/projects/birthday-progress/dota2.webp)
+![](/images/projects/birthday-progress/dota2.webp)
 
 Even though my carrying skills has increased recently, I would always prefer to pick a support hero in the game. There are many skills that I still didn't master that carry players need to have, like how tf can someone buy an item in less than 10 mins or 15 mins from the begining of the game! Or how can they keep farming and fighting at the same time!! I usually fail to buy enough items for my hero even though I try to farm as much as I can :\(.
 
