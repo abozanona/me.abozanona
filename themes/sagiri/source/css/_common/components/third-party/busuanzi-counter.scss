@@ -1,0 +1,19 @@
+.busuanzi-count {
+  @include tablet() {
+    width: auto;
+  }
+  @include mobile() {
+    width: auto;
+  }
+}
+
+.site-uv,
+.site-pv,
+.page-pv {
+  display: inline-block;
+
+  .busuanzi-value {
+    margin: 0 5px;
+  }
+}
+

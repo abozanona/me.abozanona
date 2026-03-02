@@ -2,22 +2,22 @@
 
 
 
-$scheme    = hexo-config('scheme') ? hexo-config('scheme') : 'Muse';
-$variables = base $scheme custom;
-$mixins    = base $scheme custom;
+$scheme: 'Pisces';
 
 
 
 // Variables Layer
 // --------------------------------------------------
-for $variable in $variables
-  @import "_variables/" + $variable
+@import "_variables/base";
+@import "_variables/Pisces";
+@import "_variables/custom";
 
 
 // Mixins Layer
 // --------------------------------------------------
-for $mixin in $mixins
-  @import "_mixins/" + $mixin;
+@import "_mixins/base";
+@import "_mixins/Pisces";
+@import "_mixins/custom";
 
 
 
@@ -25,24 +25,28 @@ for $mixin in $mixins
 // --------------------------------------------------
 
 // Scaffolding
-@import "_common/scaffolding";
+@import "_common/scaffolding/scaffolding";
 
 // Layout
-@import "_common/outline";
+@import "_common/outline/outline";
 
 // Components
-@import "_common/components";
+@import "_common/components/components";
 
 
 // Schemes Layer
 // --------------------------------------------------
-@import "_schemes/" + $scheme;
+@import "_schemes/Pisces/index";
 
 
 
 // Custom Layer
 // --------------------------------------------------
 @import "_custom/custom";
+
+@import "vendor/nprogress";
+@import "vendor/aplayer";
+@import "vendor/zoom-image";
 
 #nprogress .bar {
   background: $main-color;

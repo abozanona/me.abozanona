@@ -1102,7 +1102,7 @@ ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
-aplayer@1.10.1:
+aplayer@^1.10.1:
   version "1.10.1"
   resolved "https://registry.npmjs.org/aplayer/-/aplayer-1.10.1.tgz"
   integrity sha512-HAfyxgCUTLAqtYlxzzK9Fyqg6y+kZ9CqT1WfeWE8FSzwspT6oBqWOZHANPHF3RGTtC33IsyEgrfthPDzU5r9kQ==
@@ -1283,11 +1283,6 @@ core-js-compat@^3.9.0, core-js-compat@^3.9.1:
   integrity sha512-9TNiImhKvQqSUkOvk/mMRZzOANTiEVC7WaBNhHcKM7x+/5E1l5NvsysR19zuDQScE8k+kfQXWRN3AtS/eOSHpg==
   dependencies:
     browserslist "^4.23.0"
-
-corner-notie@1.2.1:
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/corner-notie/-/corner-notie-1.2.1.tgz"
-  integrity sha1-4VJOB/DS/F5gPA7QO4McV2unZ/A=
 
 cross-env@7.0.3:
   version "7.0.3"
@@ -1750,10 +1745,10 @@ npm-run-path@^4.0.1:
   dependencies:
     path-key "^3.0.0"
 
-nprogress@0.2.0:
+nprogress@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/nprogress/-/nprogress-0.2.0.tgz"
-  integrity sha1-y480xTIT2JVyP8urkH6UIq28r7E=
+  integrity sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA==
 
 object-keys@^1.0.12, object-keys@^1.1.1:
   version "1.1.1"
@@ -2219,7 +2214,7 @@ wildcard@^2.0.0:
   resolved "https://registry.npmjs.org/wildcard/-/wildcard-2.0.0.tgz"
   integrity sha512-JcKqAHLPxcdb9KM49dufGXn2x3ssnfjbcaQdLlfZsL9rH9wgDQjUtDxbo8NE0F6SFvydeu1VhZe7hZuHsB2/pw==
 
-zoom-image@0.1.4:
+zoom-image@^0.1.4:
   version "0.1.4"
   resolved "https://registry.npmjs.org/zoom-image/-/zoom-image-0.1.4.tgz"
-  integrity sha1-+q8KgFG7Zya+YM891qM17HPx6Wk=
+  integrity sha512-kVt3MXWtNVkdBCRspTefPbUiq6ZdR+aJzqRpNvENeGseAiOSzF+uw8KWPXL0cFTbNsPebuZga93OFMEKeoPRYA==

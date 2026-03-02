@@ -32,16 +32,15 @@
     "webpack-cli": "4.5.0"
   },
   "dependencies": {
-    "aplayer": "1.10.1",
-    "corner-notie": "1.2.1",
+    "aplayer": "^1.10.1",
     "dplayer": "^1.27.0",
     "fastclick": "1.0.6",
     "gsap": "3.6.0",
     "jquery-pjax": "2.0.1",
     "lazyload": "2.0.0-rc.2",
-    "nprogress": "0.2.0",
+    "nprogress": "^0.2.0",
     "social-share.js": "1.0.16",
     "velocity-animate": "1.5.2",
-    "zoom-image": "0.1.4"
+    "zoom-image": "^0.1.4"
   }
 }
