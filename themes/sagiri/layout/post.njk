@@ -1,6 +1,6 @@
-{% extends '_layout.swig' %}
-{% import '_macro/post.swig' as post_template %}
-{% import '_macro/sidebar.swig' as sidebar_template %}
+{% extends '_layout.njk' %}
+{% import '_macro/post.njk' as post_template %}
+{% import '_macro/sidebar.njk' as sidebar_template %}
 
 
 {% block title %}{{ page.title }} | {{ config.title }}{% endblock %}
@@ -15,11 +15,11 @@
 
     <div class="post-spread">
       {% if theme.jiathis %}
-        {% include '_partials/share/jiathis.swig' %}
-      {% elseif theme.baidushare %}
-        {% include '_partials/share/baidushare.swig' %}
-      {% elseif theme.add_this_id %}
-        {% include '_partials/share/add-this.swig' %}
+        {% include '_partials/share/jiathis.njk' %}
+      {% elif theme.baidushare %}
+        {% include '_partials/share/baidushare.njk' %}
+      {% elif theme.add_this_id %}
+        {% include '_partials/share/add-this.njk' %}
       {% endif %}
     </div>
   </div>
@@ -31,5 +31,5 @@
 {% endblock %}
 
 {% block script_extra %}
-  {% include '_scripts/pages/post-details.swig' %}
+  {% include '_scripts/pages/post-details.njk' %}
 {% endblock %}

@@ -1,5 +1,5 @@
 <nav class="site-nav">
-  {% set hasSearch = theme.swiftype_key || theme.algolia_search.enable || theme.tinysou_Key || theme.local_search.enable %}
+  {% set hasSearch = theme.swiftype_key or theme.algolia_search.enable or theme.tinysou_Key or theme.local_search.enable %}
 
   {% if theme.menu %}
     <ul id="menu" class="menu">
@@ -15,7 +15,7 @@
           {% if theme.submenu[itemName] %}
             <ul class="submenu submenu-{{ itemName | replace(' ', '-') }}">
               {% for name, path in theme.submenu[itemName] %}
-                {% set itemName = name.toLowerCase() %}
+                {% set itemName = name | lower %}
                 <li class="submenu-item submenu-item-{{ itemName | replace(' ', '-') }}">
                   <a href="{{ trim(url_for(path)) }}" rel="section" target="_blank">
                     {{ __('menu.' + name) | replace('menu.', '') }}
@@ -31,7 +31,7 @@
         <li class="menu-item menu-item-search">
           {% if theme.swiftype_key %}
             <a href="javascript:;" class="st-search-show-outputs">
-          {% elseif theme.local_search.enable || theme.algolia_search.enable %}
+          {% elif theme.local_search.enable or theme.algolia_search.enable %}
             <a href="javascript:;" class="popup-trigger">
           {% endif %}
             {% if theme.menu_icons.enable %}
@@ -52,7 +52,7 @@
 
   {% if hasSearch %}
     <div class="site-search">
-      {% include 'search.swig' %}
+      {% include '_partials/search.njk' %}
     </div>
   {% endif %}
 </nav>
@@ -66,7 +66,7 @@
     </picture>
   </div>
   <div class="site-meta {% if theme.custom_logo.enabled %}custom-logo{% endif %}">
-    {% if theme.custom_logo.image and theme.scheme === 'Muse' %}
+    {% if theme.custom_logo.image and theme.scheme == 'Muse' %}
       <div class="site-meta-headline">
         <a>
           <img class="custom-logo-image" src="{{ theme.custom_logo.image }}"
@@ -122,9 +122,10 @@
   </div>
 </div>
 <div class="site-master" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-master-avatar scaleup" itemprop="image" src="{{ url_for( theme.avatar | default(theme.images + '/avatar.gif') ) }}" alt="{{ theme.author }}" />
+    {% set _avatar_src = theme.avatar if theme.avatar else theme.images + '/avatar.gif' %}
+    <img class="site-master-avatar scaleup" itemprop="image" src="{{ url_for(_avatar_src) }}" alt="{{ theme.author }}" />
     <h2 class="site-master-description scaleup" itemprop="description">
         {{ theme.description }}
     </h2>
 </div>
-{% include '../_custom/header.swig' %}
+{% include '_custom/header.njk' %}

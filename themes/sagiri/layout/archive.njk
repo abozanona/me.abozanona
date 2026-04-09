@@ -1,6 +1,6 @@
-{% extends '_layout.swig' %}
-{% import '_macro/post-collapse.swig' as post_template %}
-{% import '_macro/sidebar.swig' as sidebar_template %}
+{% extends '_layout.njk' %}
+{% import '_macro/post-collapse.njk' as post_template %}
+{% import '_macro/sidebar.njk' as sidebar_template %}
 
 {% block title %}{{ __('title.archive') }} | {{ config.title }}{% endblock %}
 
@@ -23,17 +23,16 @@
         </div>
       </div>
 
-      {% for post in page.posts %}
+      {% for post in page.posts | toarray %}
 
         {# Show year #}
-        {% set year %}
-        {% set post.year = date(post.date, 'YYYY') %}
+        {% set postYear = date(post.date, 'YYYY') %}
 
-        {% if post.year !== year %}
+        {% if postYear != year %}
           {% if year %}
           </div>
           {% endif %}
-          {% set year = post.year %}
+          {% set year = postYear %}
           <div class="collection-year">
             <div class="collection-title">
               <{% if theme.seo %}h2{% else %}h1{% endif %} class="archive-year" id="archive-year-{{ year }}">{{ year }}</{% if theme.seo %}h2{% else %}h1{% endif %}>
@@ -52,7 +51,7 @@
   {### END ARCHIVE BLOCK ###}
   {#########################}
 
-  {% include '_partials/pagination.swig' %}
+  {% include '_partials/pagination.njk' %}
 
 {% endblock %}
 

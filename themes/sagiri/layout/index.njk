@@ -1,6 +1,6 @@
-{% extends '_layout.swig' %}
-{% import '_macro/post.swig' as post_template %}
-{% import '_macro/sidebar.swig' as sidebar_template %}
+{% extends '_layout.njk' %}
+{% import '_macro/post.njk' as post_template %}
+{% import '_macro/sidebar.njk' as sidebar_template %}
 
 {% block title %}{{ config.title }}{% if theme.index_with_subtitle and config.subtitle %} - {{config.subtitle }}{% endif %}{% endblock %}
 
@@ -10,12 +10,12 @@
 
 {% block content %}
   <section id="posts" class="posts-expand">
-    {% for post in page.posts %}
+    {% for post in page.posts | toarray %}
       {{ post_template.render(post, true) }}
     {% endfor %}
   </section>
 
-  {% include '_partials/pagination.swig' %}
+  {% include '_partials/pagination.njk' %}
 {% endblock %}
 
 {% block sidebar %}

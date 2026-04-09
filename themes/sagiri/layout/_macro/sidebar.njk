@@ -65,7 +65,7 @@
           <div class="des-of-author">
               <div class="des-of-author-nav">
                 {% for title, des in theme.card.items %}
-                  {% if loop.index === 1 %}
+                  {% if loop.index == 1 %}
                     <div class="des-of-author-title active" data-index="{{ loop.index }}">{{ title }}</div>
                   {% else %}
                     <div class="des-of-author-title" data-index="{{ loop.index }}">{{ title }}</div>
@@ -74,7 +74,7 @@
               </div>
               <div class="des-of-author-panel">
                 {% for title, des in theme.card.items %}
-                  {% if loop.index === 1 %}
+                  {% if loop.index == 1 %}
                     <div class="des-of-author-des active" data-index="{{ loop.index }}">{{ des }}</div>
                   {% else %}
                     <div class="des-of-author-des" data-index="{{ loop.index }}">{{ des }}</div>
@@ -170,7 +170,7 @@
           {% set cc = {'by': 1, 'by-nc': 1, 'by-nc-nd': 1, 'by-nc-sa': 1, 'by-nd': 1, 'by-sa': 1, 'zero': 1} %}
           {% if theme.creative_commons in cc %}
             <div class="cc-license motion-element" itemprop="license">
-              <a href="https://creativecommons.org/{% if theme.creative_commons === 'zero' %}publicdomain/zero/1.0{% else %}licenses/{{ theme.creative_commons }}/4.0{% endif %}/deed.zh" class="cc-opacity" target="_blank">
+              <a href="https://creativecommons.org/{% if theme.creative_commons == 'zero' %}publicdomain/zero/1.0{% else %}licenses/{{ theme.creative_commons }}/4.0{% endif %}/deed.zh" class="cc-opacity" target="_blank">
                 <img src="{{ url_for(theme.images) }}/cc-{{ theme.creative_commons }}.png" alt="Creative Commons" />
               </a>
             </div>
@@ -195,7 +195,7 @@
           {% endif %}
           #}
 
-          {% include '../_custom/sidebar.swig' %}
+          {% include '_custom/sidebar.njk' %}
         </div>
       </section>
 
@@ -204,7 +204,7 @@
         <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
           <div class="post-toc">
 
-            {% if page.toc_number === undefined %}
+            {% if page.toc_number is not defined %}
               {% set toc = toc(page.content, { "class": "nav", list_number: theme.toc.number }) %}
             {% else %}
               {% set toc = toc(page.content, { "class": "nav", list_number: page.toc_number }) %}

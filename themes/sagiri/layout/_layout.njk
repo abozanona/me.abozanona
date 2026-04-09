@@ -7,7 +7,7 @@
 
 <html class="{{ html_class | lower }}" lang="{{ config.language }}">
 <head>
-  {% include '_partials/head.swig' %}
+  {% include '_partials/head.njk' %}
   <title>{% block title %}{% endblock %}</title>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-03W44XT8MV"></script>
@@ -20,7 +20,7 @@
   </script>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}" class="theme-darling">
+<body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang or page.language or config.language }}" class="theme-darling">
 
   <canvas id="weather"></canvas>
   <div id="shell-panel" tabindex="0" class="ui-resizable">
@@ -48,7 +48,7 @@
 
   <div class="{{ container_class }} {% block page_class %}{% endblock %}">
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"> {%- include '_partials/header.swig' %} </div>
+      <div class="header-inner"> {%- include '_partials/header.njk' %} </div>
     </header>
 
     <main id="main" class="main">
@@ -58,7 +58,7 @@
             {% block content %}{% endblock %}
           </div>
         </div>
-        {% if theme.sidebar.display !== 'remove' %}
+        {% if theme.sidebar.display != 'remove' %}
           {% block sidebar %}{% endblock %}
         {% endif %}
       </div>
@@ -69,7 +69,7 @@
         
       </div>
       <div class="footer-inner">
-        {% include '_partials/footer.swig' %}
+        {% include '_partials/footer.njk' %}
         {% block footer %}{% endblock %}
       </div>
     </footer>
@@ -98,13 +98,13 @@
 
   <script type="text/javascript" src="{{ url_for(theme.js) }}/sagiri.min.js?v={{ theme.version }}"></script>
 
-  {% include '_third-party/search/index.swig' %}
-  {% include '_third-party/seo/baidu-push.swig' %}
-  {% include '_third-party/needsharebutton.swig' %}
-  {% include '_third-party/rating.swig' %}
-  {% include '_third-party/mathjax.swig' %}
-  {% include '_third-party/scroll-cookie.swig' %}
-  {% include '_third-party/exturl.swig' %}
+  {% include '_third-party/search/index.njk' %}
+  {% include '_third-party/seo/baidu-push.njk' %}
+  {% include '_third-party/needsharebutton.njk' %}
+  {% include '_third-party/rating.njk' %}
+  {% include '_third-party/mathjax.njk' %}
+  {% include '_third-party/scroll-cookie.njk' %}
+  {% include '_third-party/exturl.njk' %}
 
   <!--<script>
     // remove service worker cache

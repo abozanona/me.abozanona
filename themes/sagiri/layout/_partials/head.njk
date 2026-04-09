@@ -56,7 +56,7 @@
 {% endif %}
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-{% include "./head/external-fonts.swig" %}
+{% include "_partials/head/external-fonts.njk" %}
 
 {% set font_awesome_uri = url_for(theme.vendors._internal + '/font-awesome/css/font-awesome.min.css?v=4.7.0') %}
 {% if theme.vendors.fontawesome %}
@@ -84,11 +84,12 @@
 {% endif %}
 
 
-{% if theme.rss === '' and config.feed and config.feed.path %}
-  {% set theme.rss = config.feed.path %}
+{% set rss_path = theme.rss %}
+{% if rss_path == '' and config.feed and config.feed.path %}
+  {% set rss_path = config.feed.path %}
 {% endif %}
-{% if theme.rss %}
-  <link rel="alternate" href="{{ url_for(theme.rss) }}" title="{{ config.title }}" type="application/atom+xml" />
+{% if rss_path %}
+  <link rel="alternate" href="{{ url_for(rss_path) }}" title="{{ config.title }}" type="application/atom+xml" />
 {% endif %}
 
 
@@ -109,9 +110,9 @@
     root: '{{ theme.root }}',
     scheme: '{{ theme.scheme }}',
     version: '{{ theme.version }}',
-    sidebar: {{ theme.sidebar | json_encode }},
+    sidebar: {{ theme.sidebar | dump }},
     tabs: {{ theme.tabs.enable }},
-    motion: {{ theme.motion | json_encode }},
+    motion: {{ theme.motion | dump }},
     since: '{{ theme.footer.since }}',
     site: {
       title: '{{ theme.title }}',
@@ -122,8 +123,8 @@
       applicationID: '{{ theme.algolia.applicationID }}',
       apiKey: '{{ theme.algolia.apiKey }}',
       indexName: '{{ theme.algolia.indexName }}',
-      hits: {{ theme.algolia_search.hits | json_encode }},
-      labels: {{ theme.algolia_search.labels | json_encode }}
+      hits: {{ theme.algolia_search.hits | dump }},
+      labels: {{ theme.algolia_search.labels | dump }}
     },
     favicon: {
       visibilitychange: {{theme.favicon.visibilitychange}},
@@ -134,15 +135,14 @@
     }
   };
 </script>
-{% set js_vendors = {} %}
-{% set js_vendors.jquery      = true %}
+{% set js_vendors = { jquery: true } %}
 {% for name, internal in js_vendors %}
   <script type="text/javascript" src="{{ theme.vendors[name] }}"></script>
 {% endfor %}
 
 {# Canonical, good for google search engine (SEO) : https://support.google.com/webmasters/answer/139066 #}
 {% if theme.canonical %}
-  <link rel="canonical" href="{{ config.url }}/{{ page.canonical_path.replace('index.html', '') }}"/>
+  <link rel="canonical" href="{{ config.url }}/{{ page.canonical_path | replace('index.html', '') }}"/>
 {% endif %}
 
-{% include 'head/custom-head.swig' %}
+{% include '_partials/head/custom-head.njk' %}
