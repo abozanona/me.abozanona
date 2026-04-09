@@ -1,9 +1,0 @@
-{% if theme.algolia_search.enable %}
-  {% include '_third-party/search/algolia-search/dom.njk' %}
-{% elif theme.swiftype_key %}
-  {% include '_partials/search/swiftype.njk' %}
-{% elif theme.tinysou_Key %}
-  {% include '_partials/search/tinysou.njk' %}
-{% elif theme.local_search.enable %}
-  {% include '_partials/search/localsearch.njk' %}
-{% endif %}

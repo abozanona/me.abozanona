@@ -1,4 +1,5 @@
-if (window.CONFIG.favicon.visibilitychange) {
+$(document).ready(function () {
+if (window.CONFIG && window.CONFIG.favicon && window.CONFIG.favicon.visibilitychange) {
   // title变化
   window.originTitle = document.title;
   var titleTime;
@@ -18,3 +19,4 @@ if (window.CONFIG.favicon.visibilitychange) {
   });
 
 }
+});

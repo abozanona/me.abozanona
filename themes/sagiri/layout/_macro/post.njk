@@ -138,13 +138,6 @@
             </span>
           {% endif %}
 
-          {% if not is_index and theme.busuanzi_count.enable and theme.busuanzi_count.page_pv %}
-            <span class="post-meta-divider">•</span>
-            <span class="page-pv">{{ theme.busuanzi_count.page_pv_header }}
-            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>{{ theme.busuanzi_count.page_pv_footer }}
-            </span>
-          {% endif %}
-
           {% if post.description and (not theme.excerpt_description or not is_index) %}
               <div class="post-description">
                   {{ post.description }}
@@ -158,7 +151,7 @@
     {#################}
     {### POST BODY ###}
     {#################}
-    <div class="post-body{% if theme.han %} han-init-context{% endif %}{% if post.direction and (post.direction | lower) == 'rtl' %} rtl{% endif %}" itemprop="articleBody">
+    <div class="post-body{% if post.direction and (post.direction | lower) == 'rtl' %} rtl{% endif %}" itemprop="articleBody">
       {% if not is_index and toc(page.content).length > 1 %}<div class="post-toc-content"><div class="post-toc-title">Table of Contents</div>{{ toc(page.content, { "class": "nav", list_number: false }) }}</div>{% endif %}
       {# Gallery support #}
       {% if post.photos and post.photos.length %}
@@ -198,17 +191,6 @@
             </a>
           </div>
           <!--/noindex-->
-        {% elif theme.auto_excerpt.enable %}
-          {% set content = post.content | striptags %}
-          {{ content.substring(0, theme.auto_excerpt.length) }}
-          {% if content.length > theme.auto_excerpt.length %}...{% endif %}
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn scaleup" href="{{ url_for(post.path) }}{% if theme.scroll_to_more %}#{{ __('post.more') }}{% endif %}" rel="contents">
-              {{ __('post.read_more') }} &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
         {% else %}
           {% if post.type == 'picture' %}
             <a href="{{ url_for(post.path) }}">{{ post.content }}</a>
@@ -229,12 +211,6 @@
     {### END POST BODY ###}
     {#####################}
 
-    {% if theme.wechat_subscriber.enabled and not is_index %}
-      <div>
-        {% include '_macro/wechat-subscriber.njk' %}
-      </div>
-    {% endif %}
-
     {% if not is_home() %}
     <script src="https://utteranc.es/client.js"
         repo="abozanona/me.abozanona"
@@ -250,12 +226,6 @@
       <div class="post-share">Share it:</div>
     {% endif %}
 
-    {% if theme.post_copyright.enable and not is_index %}
-      <div>
-        {% include '_macro/post-copyright.njk' %}
-      </div>
-    {% endif %}
-
     <footer class="post-footer">
       {% if post.tags and post.tags.length and not is_index %}
         <div class="post-tags">
@@ -263,39 +233,6 @@
             <a href="{{ url_for(tag.path) }}" rel="tag"># {{ tag.name }}</a>
           {% endfor %}
         </div>
-      {% endif %}
-
-      {% if not is_index %}
-      {% if theme.rating.enable or (theme.vkontakte_api.enable and theme.vkontakte_api.like) or (theme.facebook_sdk.enable and theme.facebook_sdk.like_button) or (theme.needmoreshare2.enable and theme.needmoreshare2.postbottom.enable) %}
-        <div class="post-widgets">
-        {% if theme.rating.enable %}
-          <div class="wp_rating">
-            <div id="wpac-rating"></div>
-          </div>
-        {% endif %}
-
-        {% if (theme.vkontakte_api.enable and theme.vkontakte_api.like) or (theme.facebook_sdk.enable and theme.facebook_sdk.like_button) %}
-          <div class="social-like">
-            {% if theme.vkontakte_api.enable and theme.vkontakte_api.like %}
-              <div class="vk_like">
-                <span id="vk_like"></span>
-              </div>
-            {% endif %}
-          </div>
-        {% endif %}
-
-        {% if theme.needmoreshare2.enable and theme.needmoreshare2.postbottom.enable %}
-          {% if (theme.vkontakte_api.enable and theme.vkontakte_api.like) or (theme.facebook_sdk.enable and theme.facebook_sdk.like_button) %}
-            <span class="post-meta-divider">•</span>
-          {% endif %}
-          <div id="needsharebutton-postbottom">
-            <span class="btn">
-              <i class="fa fa-share-alt" aria-hidden="true"></i>
-            </span>
-          </div>
-        {% endif %}
-        </div>
-      {% endif %}
       {% endif %}
 
       {% if not is_index and (post.prev or post.next) %}

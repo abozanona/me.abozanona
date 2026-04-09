@@ -1,6 +1,4 @@
 <nav class="site-nav">
-  {% set hasSearch = theme.swiftype_key or theme.algolia_search.enable or theme.tinysou_Key or theme.local_search.enable %}
-
   {% if theme.menu %}
     <ul id="menu" class="menu">
       {% for name, path in theme.menu %}
@@ -27,20 +25,6 @@
         </li>
       {% endfor %}
 
-      {% if hasSearch %}
-        <li class="menu-item menu-item-search">
-          {% if theme.swiftype_key %}
-            <a href="javascript:;" class="st-search-show-outputs">
-          {% elif theme.local_search.enable or theme.algolia_search.enable %}
-            <a href="javascript:;" class="popup-trigger">
-          {% endif %}
-            {% if theme.menu_icons.enable %}
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
-            {% endif %}
-            {{ __('menu.search') }}
-          </a>
-        </li>
-      {% endif %}
       <li class="menu-item search">
           <form class="search-form">
             <input name="keyword" type="text" class="search-input" placeholder="Search website">
@@ -48,12 +32,6 @@
           </form>
       </li>
     </ul>
-  {% endif %}
-
-  {% if hasSearch %}
-    <div class="site-search">
-      {% include '_partials/search.njk' %}
-    </div>
   {% endif %}
 </nav>
 
@@ -65,16 +43,7 @@
       <img loading="lazy" src="/images/header-weathering-with-you.png">
     </picture>
   </div>
-  <div class="site-meta {% if theme.custom_logo.enabled %}custom-logo{% endif %}">
-    {% if theme.custom_logo.image and theme.scheme == 'Muse' %}
-      <div class="site-meta-headline">
-        <a>
-          <img class="custom-logo-image" src="{{ theme.custom_logo.image }}"
-               alt="{{ config.title }}"/>
-        </a>
-      </div>
-    {% endif %}
-
+  <div class="site-meta ">
     <div class="custom-logo-site-title">
       <div class="brand">
         <span class="logo-line-before"><i></i></span>

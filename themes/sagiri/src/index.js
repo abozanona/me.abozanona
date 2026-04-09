@@ -4,11 +4,12 @@ require('lazyload');
 window.APlayer = require('aplayer');
 window.DPlayer = require('dplayer');
 
+window.NexT = window.NexT || {};
+window.CONFIG = window.CONFIG || {};
 require('./utils');
 require('./motion');
 require('./affix');
 require('./pisces')();
-require('./scrollspy');
 require('./post-details')();
 require('./bootstrap');
 require('./evanyou');
