@@ -10,7 +10,7 @@ function postDetails () {
   $(document).ready(function () {
     var html = $('html');
     var TAB_ANIMATE_DURATION = 200;
-    var hasVelocity = $.isFunction(html.velocity);
+    var hasVelocity = typeof html.velocity === 'function';
 
     $('.des-of-author-title').click(function () {
       $('.des-of-author-title.active').removeClass('active');
