@@ -1,4 +1,8 @@
 if (document.getElementById('evanyou')) {
+  function isCorpseModeActive() {
+    return document.body.classList.contains('corpse-mode')
+  }
+
   var c = document.getElementById('evanyou'),
     x = c.getContext('2d'),
     pr = window.devicePixelRatio || 1,
@@ -23,7 +27,7 @@ if (document.getElementById('evanyou')) {
       q = [{ x: 0, y: h * .7 + f }, { x: 0, y: h * .7 - f }]
       while (q[1].x < w + f) d(q[0], q[1])
     };
-    img.src = '/images/footer.png';
+    img.src = isCorpseModeActive() ? '/images/footer-dark-mode.webp' : '/images/footer.png';
   }
   function d(i, j) {
     x.beginPath()

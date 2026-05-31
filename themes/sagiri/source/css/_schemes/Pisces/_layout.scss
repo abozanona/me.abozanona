@@ -138,6 +138,21 @@ body {
   left: 0;
   z-index: -1;
   background: #efefef;
+  transition: background 0.3s ease;
+}
+
+body.corpse-mode {
+  .menu-item-dark-mode {
+    display: none;
+  }
+
+  .sidebar {
+    visibility: hidden;
+  }
+
+  #evanyou {
+    background: #080808;
+  }
 }
 
 a {

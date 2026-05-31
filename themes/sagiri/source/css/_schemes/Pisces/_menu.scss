@@ -175,6 +175,12 @@
   }
 }
 
+body.corpse-mode {
+  .site-master {
+    background: unset;
+  }
+}
+
 .submenu {
   position: absolute;
   padding: 0;

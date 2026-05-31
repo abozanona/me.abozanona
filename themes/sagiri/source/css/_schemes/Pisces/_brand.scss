@@ -92,3 +92,9 @@
     top: 0;
   }
 }
+
+body.corpse-mode {
+  .site-title {
+    visibility: hidden;
+  }
+}

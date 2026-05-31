@@ -12,6 +12,7 @@ require('./affix');
 require('./pisces')();
 require('./post-details')();
 require('./bootstrap');
+require('./dark-mode');
 require('./evanyou');
 require('./share')();
 require('./scroll');

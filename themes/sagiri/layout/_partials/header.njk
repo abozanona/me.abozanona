@@ -1,4 +1,8 @@
 <nav class="site-nav">
+  {% set header_light_webp = url_for('/images/header-weathering-with-you.webp') %}
+  {% set header_light_png = url_for('/images/header-weathering-with-you.png') %}
+  {% set header_dark_jpg = url_for('/images/header-dark-mode.jpg') %}
+  {% set avatar_dark_src = url_for('/images/avatar-dark-mode.webp') %}
   {% if theme.menu %}
     <ul id="menu" class="menu">
       {% for name, path in theme.menu %}
@@ -25,6 +29,20 @@
         </li>
       {% endfor %}
 
+      <li class="menu-item menu-item-dark-mode">
+        <a
+          href="#"
+          rel="section"
+          onclick="enableDarkTheme(); return false;"
+          aria-label="Enable dark theme"
+        >
+          {% if theme.menu_icons.enable %}
+            <i class="menu-item-icon fas fa-moon"></i> <br />
+          {% endif %}
+          DarkTheme
+        </a>
+      </li>
+
       <li class="menu-item search">
           <form class="search-form">
             <input name="keyword" type="text" class="search-input" placeholder="Search website">
@@ -38,9 +56,33 @@
 <div class="site-brand-wrapper">
   <div class="site-brand-bg">
     <picture>
-      <source srcset="/images/header-weathering-with-you.webp" type="image/webp" media="(max-width: 500px)">
-      <source srcset="/images/header-weathering-with-you.png" type="image/png" media="(max-width: 500px)">
-      <img loading="lazy" src="/images/header-weathering-with-you.png">
+      <source
+        id="header-brand-source-webp"
+        srcset="{{ header_light_webp }}"
+        data-light-srcset="{{ header_light_webp }}"
+        data-light-type="image/webp"
+        data-dark-srcset="{{ header_dark_jpg }}"
+        data-dark-type="image/jpeg"
+        type="image/webp"
+        media="(max-width: 500px)"
+      >
+      <source
+        id="header-brand-source-fallback"
+        srcset="{{ header_light_png }}"
+        data-light-srcset="{{ header_light_png }}"
+        data-light-type="image/png"
+        data-dark-srcset="{{ header_dark_jpg }}"
+        data-dark-type="image/jpeg"
+        type="image/png"
+        media="(max-width: 500px)"
+      >
+      <img
+        id="header-brand-image"
+        loading="lazy"
+        src="{{ header_light_png }}"
+        data-light-src="{{ header_light_png }}"
+        data-dark-src="{{ header_dark_jpg }}"
+      >
     </picture>
   </div>
   <div class="site-meta ">
@@ -92,7 +134,15 @@
 </div>
 <div class="site-master" itemprop="author" itemscope itemtype="http://schema.org/Person">
     {% set _avatar_src = theme.avatar if theme.avatar else theme.images + '/avatar.gif' %}
-    <img class="site-master-avatar scaleup" itemprop="image" src="{{ url_for(_avatar_src) }}" alt="{{ theme.author }}" />
+  <img
+    id="site-master-avatar"
+    class="site-master-avatar scaleup"
+    itemprop="image"
+    src="{{ url_for(_avatar_src) }}"
+    data-light-src="{{ url_for(_avatar_src) }}"
+    data-dark-src="{{ avatar_dark_src }}"
+    alt="{{ theme.author }}"
+  />
     <h2 class="site-master-description scaleup" itemprop="description">
         {{ theme.description }}
     </h2>
