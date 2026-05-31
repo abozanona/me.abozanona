@@ -87,20 +87,6 @@
 
   <script type="text/javascript" src="{{ url_for(theme.js) }}/sagiri.min.js?v={{ theme.version }}"></script>
 
-  <!--<script>
-    // remove service worker cache
-    // from https://stackoverflow.com/questions/33704791/how-do-i-uninstall-a-service-worker
-    "use strict";
-    if(navigator.serviceWorker)
-    {
-        navigator.serviceWorker.getRegistrations().then(function(registrations) {
-            for(let registration of registrations) {
-                registration.unregister()
-            }
-        })
-    }
-  </script>-->
-
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
