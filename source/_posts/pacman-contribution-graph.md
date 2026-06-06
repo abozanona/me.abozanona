@@ -41,27 +41,7 @@ You can also see how it looks like on Github profiles live on [@abozanona](https
 
 This is how canvas export for my gitlab account looks like:
 
-<canvas id="pacmancanvas" style="max-width:100%"></canvas>
-<script type="module">
-import { PacmanRenderer } from 'https://cdn.jsdelivr.net/npm/pacman-contribution-graph/dist/pacman-contribution-graph.min.js';
-const canvas = document.getElementById('pacmancanvas');
-const pr = new PacmanRenderer({
-    platform: "gitlab",
-    gameTheme: "gitlab",
-    username: "abozanona",
-    canvas: canvas,
-    outputFormat: 'canvas',
-    gameOverCallback: () => {
-        console.log('GAME OVER');
-        setTimeout(() => {
-            console.log('Restarting');
-            pr.start();
-        }, 3000);
-    },
-    enableSounds: false
-});
-pr.start();
-</script>
+<img src="https://gitlab.com/abozanona/abozanona/-/raw/main/output/pacman-contribution-graph-light.svg" style="width: 100%"/>
 
 ---
 
